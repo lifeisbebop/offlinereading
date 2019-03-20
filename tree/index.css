@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 1.35em;
+}
+
+/* ::::: header ::::: */
+
+div#header {
+    padding: 2px 8px;
+    border: 1px solid ThreeDShadow;
+    background-color: InfoBackground;
+}
+
+div#header a {
+    color: #666666;
+}
+
+/* ::::: root ::::: */
+
+ul#container-root {
+    margin-left: 10px;
+}
+
+/* ::::: list ::::: */
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* ::::: list items ::::: */
+li {
+    list-style-type: none;
+    margin: 2px 10px;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:focus {
+    background-color: #6495ED;
+    text-decoration: underline;
+}
+
+a.container:focus {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* ::::: type ::::: */
+a.container { display: inline-block; margin-left: -16px; width: 16px; text-align: center; color: #aaa; }
+a.marked   { font-weight: bold; }
+a.combine  { color: blue; }
+a.bookmark { color: limegreen; }
+a.notex { color: rgb(80,0,32); }
+
+fieldset.separator {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #aaa;
+    padding: 0 0 0 1em;
+}
+
+fieldset.separator legend {
+    padding: 0;
+}
+
+/* ::::: icon ::::: */
+#toggle-all img, #search img, #container-root img {
+    margin-right: 5px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline; /* hack for display: inline-block; for IE < 8 */
+    *zoom: 1; /* hack for display: inline-block; for IE < 8 */
+}
+
+#search img {
+    margin: auto;
+    width: 18px;
+    height: 12px;
+}

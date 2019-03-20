@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html id="scrapbook-index">
+
+<head>
+<meta charset="UTF-8">
+<title>Scrapbook - ScrapBook</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+<link rel="stylesheet" type="text/css" href="custom.css" media="all">
+<script>
+function init() {
+    toggleAll(false);
+    try {
+        initLoadHash();
+    } catch(ex) {
+        if (console && console.error) console.error(ex);
+    }
+    initEvents();
+}
+function initLoadHash() {
+    var hash = top.location.hash, hashTargetUrl, hashTargetItem;
+    if (hash) {
+        hashTargetUrl = hash.substring(1);
+        var mainPage = hashTargetUrl.replace(/^(\.\.\/data\/\d{14})\/.*/, "$1/index.html");
+        var elems = document.getElementById("container-root").getElementsByTagName("A");
+        for ( var i = 0, I = elems.length; i < I; i++ ) {
+            if (elems[i].getAttribute("href") == mainPage) {
+                hashTargetItem = elems[i];
+                break;
+            }
+        }
+    }
+    if (hashTargetUrl) {
+        if (self != top) top.frames["main"].location = hashTargetUrl;
+    }
+    if (hashTargetItem) {
+        if (self != top && hashTargetItem.title) top.document.title = hashTargetItem.title;
+        var ancs = hashTargetItem;
+        while (ancs) { 
+            if (ancs.nodeName == "UL") toggleElem(ancs, true);
+            ancs = ancs.parentNode;
+        }
+        hashTargetItem.focus();
+    }
+}
+function initEvents() {
+    document.getElementById("toggle-all").onclick = function () {
+        toggleAll();
+        return false;
+    }
+    var elems = document.getElementById("container-root").getElementsByTagName("A");
+    for ( var i = 0, I = elems.length; i < I; i++ ) {
+        if (elems[i].className == "container") {
+            elems[i].onclick = onClickContainer;
+        } else if (elems[i].className == "folder") {
+            elems[i].onclick = onClickFolder;
+        } else {
+            elems[i].onclick = onClickItem;
+        }
+    }
+}
+function onClickContainer() {
+    var ulElem = document.getElementById(this.id.replace(/^item-/, "container-"));
+    if (ulElem) toggleElem(ulElem);
+    return false;
+}
+function onClickFolder() {
+    var cElem = this.previousSibling;
+    cElem.focus();
+    cElem.click();
+    return false;
+}
+function onClickItem() {
+    if (self == top) return;
+    var hash = "#" + this.getAttribute("href");
+    var title = this.childNodes[1].nodeValue;
+    try {
+        if (history && history.pushState) top.history.pushState("", title, hash);
+        else top.location.hash = hash;
+        top.document.title = title;
+    } catch(ex) {
+        if (console && console.error) console.error(ex);
+    }
+}
+function toggleElem(elem, willOpen) {
+    var iElem = document.getElementById(elem.id.replace(/^container-/, "item-"));
+    if (!iElem) return;
+    if (typeof willOpen === "undefined") willOpen = (elem.style.display == "none");
+    if (willOpen) {
+        elem.style.display = "block";
+        iElem.textContent = "▽";
+    }
+    else {
+        elem.style.display = "none";
+        iElem.textContent = "▷";
+    }
+}
+function toggleAll(willOpen) {
+    var ulElems = document.getElementsByTagName("UL");
+    if (typeof willOpen === "undefined") {
+        willOpen = false;
+        for ( var i = 1; i < ulElems.length; i++ ) {
+            if (ulElems[i].style.display == "none") { willOpen = true; break; }
+        }
+    }
+    for ( var i = 1; i < ulElems.length; i++ ) {
+        toggleElem(ulElems[i], willOpen);
+    }
+}
+</script>
+<script src="custom.js"></script>
+</head>
+
+<body>
+<div id="header"><a id="toggle-all" title="Toggle all folders" href="#"><img src="toggle.png" alt="">ScrapBook</a> <a id="search" href="../search.html"><img src="search.png" alt=""></a></div>
+<ul id="container-root">
+<li class="depth1"><a class="" title="Government, Geography, and Growth: The True Drivers of Economic Development | Foreign Affairs" href="../data/20190320102713/index.html"><img src="../data/20190320102713/favicon.ico" alt="">Government, Geography, and Growth: The True Drivers of Economic Development | Foreign Affairs</a> <a class="bookmark" title="Source" href="https://www.foreignaffairs.com/reviews/review-essay/government-geography-and-growth" target="_blank">➤</a></li>
+</ul>
+<script>init();</script>
+</body>
+
+</html>
