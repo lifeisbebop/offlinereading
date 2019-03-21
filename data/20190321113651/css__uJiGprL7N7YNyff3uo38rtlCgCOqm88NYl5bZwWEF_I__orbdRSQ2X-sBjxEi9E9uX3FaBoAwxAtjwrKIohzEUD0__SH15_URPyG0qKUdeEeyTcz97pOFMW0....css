@@ -108,22 +108,12 @@
 @media (min-width: 900px) {
 }
 .messages--container { left: 0px; position: fixed; right: 0px; top: 0px; z-index: 13; }
-.messages { background-color: rgb(255, 255, 255); color: rgb(89, 89, 92); font-family: "Atlas Grotesk Web",sans-serif; padding: 8px 0px; }
-.messages .container { position: relative; }
-.messages .message-copy { font-size: 0.7em; margin: 0px; }
-.messages .message-close { position: absolute; right: 0px; top: 0px; }
-.messages .message-close svg { height: 20px; fill: rgb(89, 89, 92); }
-.messages .container { align-items: center; display: flex; flex-direction: column; }
 @media (min-width: 900px) {
-  .messages .container { flex-direction: row; }
-}
-.messages .container .message-text { flex-grow: 2; margin-top: 20px; }
-@media (min-width: 900px) {
-  .messages .container .message-text { margin-top: 0px; }
 }
 @media (min-width: 900px) {
 }
-.messages.status, .messages.breaking { background-color: rgb(255, 255, 255); border-bottom: 5px solid rgb(156, 186, 217); }
+@media (min-width: 900px) {
+}
 @media (min-width: 600px) {
 }
 @media (min-width: 900px) {
@@ -263,12 +253,6 @@
 .button__red-solid-reversed, .button__red { border: 1px solid rgb(232, 56, 54); }
 .button__red-solid-reversed:link, .button__red-solid-reversed:visited, .button__red:link, .button__red:visited { color: rgb(232, 56, 54); }
 .button__red-solid-reversed:hover, .button__red-solid-reversed:focus, .button__red-solid-reversed:active, .button__red:hover, .button__red:focus, .button__red:active { background-color: rgb(189, 5, 0); border: 1px solid rgb(189, 5, 0); color: rgb(34, 34, 34); text-decoration: none; }
-.button__red-reversed--light, .webform-client-form .form-submit, .button__red-reversed { background-color: rgb(189, 5, 0); border: 1px solid rgb(189, 5, 0); color: rgb(34, 34, 34); text-decoration: none; }
-.button__red-reversed--light:link, .webform-client-form .form-submit:link, .button__red-reversed--light:visited, .webform-client-form .form-submit:visited, .button__red-reversed:link, .button__red-reversed:visited { background-color: rgb(189, 5, 0); border: 1px solid rgb(189, 5, 0); color: rgb(34, 34, 34); text-decoration: none; }
-.button__red-reversed--light:hover, .webform-client-form .form-submit:hover, .button__red-reversed--light:focus, .webform-client-form .form-submit:focus, .button__red-reversed--light:active, .webform-client-form .form-submit:active, .button__red-reversed:hover, .button__red-reversed:focus, .button__red-reversed:active { background-color: rgb(232, 56, 54); border: 1px solid rgb(232, 56, 54); color: rgb(34, 34, 34); }
-.button__red-reversed--light { color: rgb(255, 255, 255); }
-.button__red-reversed--light:link, .button__red-reversed--light:visited { color: rgb(255, 255, 255); }
-.button__red-reversed--light:hover, .button__red-reversed--light:focus, .button__red-reversed--light:active { color: rgb(255, 255, 255); }
 @media (min-width: 600px) {
 }
 .button__amazon-purchase { padding-bottom: 0px; }
@@ -523,7 +507,6 @@
 .html form { margin: 0px auto; max-width: 765px; }
 .page-panels form, .page-newsletter form { margin: 0px; max-width: none; }
 .form-item, .form-submit { font-family: "Atlas Grotesk Web",sans-serif; margin-bottom: 0.7em; }
-.form-item { position: relative; }
 @media (min-width: 600px) {
 }
 @media (min-width: 900px) {
@@ -538,7 +521,6 @@
 }
 @media (min-width: 600px) {
 }
-.d-none { display: none; }
 @media (min-width: 900px) {
   .tooltip { overflow: visible ! important; position: relative; }
   .tooltip:hover::before { animation-duration: 0.5s; animation-name: fadein; border: 10px solid transparent; content: " "; display: block; position: absolute; }
