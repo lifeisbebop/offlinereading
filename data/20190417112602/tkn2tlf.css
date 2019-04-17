@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+@import url("p.css");
+@font-face {
+  font-family: "adobe-caslon-pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("l.dat") format("woff2"), url("d.dat") format("woff"), url("a.dat") format("opentype");
+}
+@font-face {
+  font-family: "adobe-caslon-pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("l_001.dat") format("woff2"), url("d_001.dat") format("woff"), url("a_001.dat") format("opentype");
+}
+@font-face {
+  font-family: "adobe-caslon-pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("l_002.dat") format("woff2"), url("d_002.dat") format("woff"), url("a_002.dat") format("opentype");
+}
+@font-face {
+  font-family: "adobe-caslon-pro";
+  font-style: italic;
+  font-weight: 600;
+  src: url("l_003.dat") format("woff2"), url("d_003.dat") format("woff"), url("a_003.dat") format("opentype");
+}
+@font-face {
+  font-family: "williams-caslon-text";
+  font-style: italic;
+  font-weight: 400;
+  src: url("l_004.dat") format("woff2"), url("d_004.dat") format("woff"), url("a_004.dat") format("opentype");
+}
+@font-face {
+  font-family: "williams-caslon-text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("l_005.dat") format("woff2"), url("d_005.dat") format("woff"), url("a_005.dat") format("opentype");
+}
+@font-face {
+  font-family: "williams-caslon-text";
+  font-style: italic;
+  font-weight: 700;
+  src: url("l_006.dat") format("woff2"), url("d_006.dat") format("woff"), url("a_006.dat") format("opentype");
+}
+@font-face {
+  font-family: "williams-caslon-text";
+  font-style: normal;
+  font-weight: 700;
+  src: url("l_007.dat") format("woff2"), url("d_007.dat") format("woff"), url("a_007.dat") format("opentype");
+}
+.tk-adobe-caslon-pro { font-family: "adobe-caslon-pro",serif; }
+.tk-williams-caslon-text { font-family: "williams-caslon-text",serif; }

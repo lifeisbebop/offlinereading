@@ -1,0 +1,685 @@
+/* Code tidied up by ScrapBook */
+#header-bottom-left .tabmenu li a[href$="http://bit.ly/piracywiki"] { background: rgb(52, 152, 219) none repeat scroll 0% 0%; border-color: rgb(41, 128, 185); font-weight: bold; color: rgb(255, 255, 255); }
+#header-bottom-left .tabmenu li a[href$="http://bit.ly/piracywiki"]:hover { border-color: rgb(14, 104, 163); }
+#header-bottom-left .tabmenu li a[href$="http://bit.ly/piracywiki"]::before { content: " "; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > .toc { display: none; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type { list-style: outside none none; margin: 0px; padding: 0px; max-width: 850px; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li { display: inline-block; height: 120px; width: 200px; margin-bottom: 14px; margin-right: 6px; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a { display: block; height: 120px; width: 200px; text-indent: -9999px; background-size: 200px 120px ! important; position: relative; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a:hover::after { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: rgba(255, 255, 255, 0.2) none repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="/r/Piracy/wiki/megathread"] { background: transparent url("zRd-6EEgHBwxfBMebu6nbD7CKPysdPBK0XPyxthbLNw.png") no-repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="/r/piracy/wiki/megathread_changelog"] { background: transparent url("TUC7sGBCwZZGzrVM9rV2ox3lBiaKsMK3Bom4pELiTqs.png") no-repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="/r/piracy/wiki/faq"] { background: transparent url("jFiSYlrIhPwO2ngLHFDgxiBmiXqhp3DT3Ld5tWHdZR4.png") no-repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="/r/piracy/wiki/guides"] { background: transparent url("A3be7tYEbiQl2ccS6N_YJv_ZsUl54O3kzl4dcehiVh8.png") no-repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="/r/piracy/wiki/tools"] { background: transparent url("uCizWEjusl8e_oM57ZwBPILE9TXEejkIrD-jNdyEdY8.png") no-repeat scroll 0% 0%; }
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki > ul:first-of-type li a[href$="https://discord.gg/GDr46dF"] { background: transparent url("mCAkB3CiPGTHJx9a14U5kU-YKrtIa368ZXdVn5Pg7no.png") no-repeat scroll 0% 0%; }
+.side table { width: 260px; border: medium none ! important; margin-left: 0px; }
+.side table th { display: none; }
+.side table tr {  }
+.side table td { border: medium none ! important; padding: 4px 0px; }
+.side table td a { background: rgb(170, 170, 170) none repeat scroll 0% 0%; width: 100px; color: rgb(255, 255, 255); display: inline-block; margin-left: 14px; padding: 4px 0px 4px 23px; position: relative; left: 0px; top: 0px; transition: background 2s ease 0s; }
+.side table td a:hover { text-decoration: none; }
+.side table td a[href$="http://bit.ly/PSA_flair"] { background-color: rgb(248, 165, 165); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/PSA_flair"]::before { background-position: 3px 4px; }
+.side table td a[href$="http://bit.ly/Humor_flair"] { background-color: rgb(242, 206, 163); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/Humor_flair"]::before {  }
+.side table td a[href$="http://bit.ly/News_flair"] { background-color: rgb(239, 224, 150); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/News_flair"]::before {  }
+.side table td a[href$="http://bit.ly/meta_flair"] { background-color: rgb(141, 218, 138); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/meta_flair"]::before {  }
+.side table td a[href$="http://bit.ly/weekly_new"] { background-color: rgb(10, 215, 108); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/weekly_new"]::before { background-position: 4px 6px; background-size: 12px auto; }
+.side table td a[href$="http://bit.ly/Guide_flair"] { background-color: rgb(164, 223, 208); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/Guide_flair"]::before {  }
+.side table td a[href$="http://bit.ly/Question_flair"] { background-color: rgb(113, 169, 247); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/Question_flair"]::before {  }
+.side table td a[href$="http://bit.ly/release_flair"] { background-color: rgb(255, 172, 236); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/release_flair"]::before {  }
+.side table td a[href$="http://bit.ly/discussion_flair"] { background-color: rgb(201, 181, 240); color: rgb(0, 0, 0) ! important; }
+.side table td a[href$="http://bit.ly/discussion_flair"]::before {  }
+#header { height: 165px; background: rgb(74, 95, 123) none repeat scroll 0% 0%; border-bottom: medium none; }
+#header #header-bottom-right #mail.havemail, #header #modmail.havemail, .comments-page.linkflair-bug .flat-list a.flairselectbtn::after, .comments-page.linkflair-help .flat-list a.flairselectbtn::after { animation: 2s ease-out 0s normal none infinite running pulsate; }
+#header-bottom-left { height: 140px; }
+#header-bottom-left .tabmenu { background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; width: calc(100% - 50px); padding-left: 50px; position: absolute; bottom: 0px; left: 0px; font-family: "Segoe UI",Helvetica,sans-serif; transition: all 0.5s ease 0s; }
+#header-bottom-left .tabmenu li { font-weight: 400; margin: 0px; }
+#header-bottom-left .tabmenu li a { background: transparent none repeat scroll 0px center; color: rgb(221, 221, 221); border-bottom: 2px solid transparent; font-size: 11.4px; font-family: "Segoe UI",Helvetica,sans-serif; line-height: 30px; padding: 8px 9px 6px; letter-spacing: 0.1em; text-transform: uppercase; transition: all 0.15s ease-in-out 0s; }
+#header-bottom-left .tabmenu li a:hover { color: rgb(255, 255, 255); background: rgb(37, 158, 255) none repeat scroll 0% 0%; border-bottom: 2px solid rgb(255, 255, 255) ! important; }
+#header-bottom-left .tabmenu li.selected a { background-color: rgb(37, 158, 255); border-top: 0px none; border-right: 0px none; border-left: 0px none; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(255, 255, 255); font-weight: 700; border-bottom: 2px solid ! important; }
+#header-img { text-indent: -9999px; display: inline-block; margin-top: 110px; position: absolute; z-index: 99; height: 27px; width: 27px; margin-left: 4px; padding: 2px 11px 0px 8px; opacity: 0.8; background-repeat: no-repeat ! important; transition: all 0.15s ease-in-out 0s; border-bottom: 2px solid transparent ! important; }
+#header-img:hover { opacity: 1; background: rgb(37, 158, 255) none repeat scroll 0% 0%; font-weight: 500; border-bottom: 2px solid rgb(255, 255, 255) ! important; }
+#header .hover a:hover, .redditname a:hover::after { color: rgb(255, 255, 255) ! important; }
+#header-bottom-right #modmail, #header-bottom-right .user { height: 37px; white-space: nowrap; border-radius: 1px; overflow: hidden; transition: all 0.5s ease 0s; }
+#sr-header-area { transition: opacity 0.3s ease 0s; opacity: 0.4; height: 24px; background-color: rgb(12, 23, 34); border-bottom: 0px none; letter-spacing: 1px; line-height: 22px; }
+#sr-header-area .srdrop.dropdown .selected:hover, #sr-header-area:hover { opacity: 1; }
+#sr-header-area a { color: rgb(196, 196, 196); font-family: "Segoe UI",Helvetica,sans-serif; }
+#sr-header-area .srdrop.dropdown { width: 35px; padding: 0px; }
+#sr-header-area .srdrop.dropdown .selected { width: 35px; height: 23px; padding: 0px; margin: 0px; display: block; background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -225px -252px; line-height: 35px; text-indent: -999em; }
+#sr-header-area .sr-list { padding-left: 8px; border-left: 2px solid rgba(196, 196, 196, 0.9); height: 24px; line-height: 25px; }
+#sr-header-area .drop-choices.srdrop { padding: 5px; margin: 1px 0px 0px; background: rgb(34, 34, 34) none repeat scroll 0% 0%; border: medium none; }
+#sr-header-area .drop-choices a.choice { color: rgb(174, 174, 174); }
+#sr-header-area .drop-choices a.choice:hover { background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); }
+#sr-header-area .drop-choices .choice.bottom-option { border-color: rgb(174, 174, 174); }
+#header [href$="/ads/"], #header [href$="/controversial/"], #header [href$="/rising/"], #sr-more-link, #suggested-reddits, .rank, .submit-page .content h1, .titlebox .bottom, .voteWeight, a[href*="#/RES_SR_Config/NightModeCompatible"], a[href*="#icon"] + .keyNavAnnotation { display: none ! important; }
+#url-field button, .submit-page .content button[name="submit"] { background: transparent none repeat scroll 0px 0px; transition: all 0.5s ease 0s; border: 1px solid rgb(92, 184, 92); color: rgb(92, 184, 92); }
+#url-field button:hover, .submit-page .content button[name="submit"]:hover, button.save:hover, button.submit-action-thing:hover, button.submit-report:hover { background: rgb(92, 184, 92) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.submit-page .tabmenu.formtab { margin-bottom: 74px; }
+.submit_text p { color: rgb(238, 238, 238); }
+.commentarea .infobar p:hover, .submit_text.roundfield.enabled { background: rgb(82, 157, 255) none repeat scroll 0% 0%; }
+button.cancel, button.cancel-action-thing, button.cancel-report-thing, button.save, button.submit-action-thing, button.submit-report { background: transparent none repeat scroll 0px 0px; transition: all 0.5s ease 0s; text-transform: capitalize; font-family: "Segoe UI",Helvetica,sans-serif; border: 1px solid rgb(92, 184, 92); color: rgb(92, 184, 92); padding: 0.25rem 0.75rem; }
+button.cancel, button.cancel-action-thing, button.cancel-report-thing { border: 1px solid rgb(217, 83, 79); color: rgb(217, 83, 79); }
+button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cancel:hover { background: rgb(217, 83, 79) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.next-suggestions a { padding: 0px 4px; color: rgb(37, 158, 255); }
+.next-suggestions a, .nextprev a { background: transparent none repeat scroll 0px 0px; border: medium none; text-align: center; }
+.next-suggestions a:hover, .nextprev a:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; border: medium none; color: rgb(255, 255, 255); outline: 0px none; }
+#header #header-bottom-right #mail.havemail:active, #header #header-bottom-right #mail.nohavemail:active, #header #header-bottom-right .choice:active, #header #header-bottom-right .logout a:active, #header-bottom-left .tabmenu li a:active, #header-bottom-right #modmail:active, #header-bottom-right .user:active, .btn:active, .gadget .right a:active, .morelink a:active, .sidecontentbox a.helplink:active, button:active { background-color: rgb(22, 134, 240) ! important; }
+.comment { position: relative; padding: 4px 0px 0px 30px; z-index: 1; border: 2px solid rgb(230, 230, 230); overflow: hidden; margin: 0px 18px 8px 0px; }
+.comment .expand { transition: all 0.5s ease 0s; position: absolute; top: 0px; left: 0px; bottom: 0px; padding: 4px; }
+.comment .expand:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; color: rgb(255, 255, 255) ! important; text-decoration: none; }
+.comment.collapsed .tagline { height: 21px; line-height: 21px; }
+.comment.collapsed .tagline a { line-height: 13px; }
+.comment .child, .comment .showreplies { border-left: medium none; }
+.new-comment { border-color: rgb(255, 171, 145) ! important; }
+.new-comment .expand:hover { background: rgb(255, 171, 145) none repeat scroll 0% 0%; }
+.new-comment .usertext-body { background-color: transparent; border: medium none; }
+.comment.gilded, .res-commentBoxes .commentarea .comment.gilded { border-color: rgb(226, 199, 55); }
+.comment.gilded > .entry .expand:hover { background-color: rgb(226, 199, 55); }
+.gilded.link { border-left-color: gold ! important; background: rgb(255, 253, 243) none repeat scroll 0% 0%; }
+.tagline .score { font-weight: 700; }
+.entry .flat-list .reply-button a, .tagline .likes { color: rgb(59, 76, 98); }
+.tagline .submitter { color: rgb(82, 157, 255); }
+.tagline .stickied-tagline { color: rgb(0, 166, 79); }
+.tagline a:hover { color: rgb(37, 158, 255); }
+.link .domain { visibility: hidden; }
+.link .domain a { visibility: visible; position: relative; top: -1px; color: rgb(177, 177, 177); }
+.domain { display: inline-block ! important; }
+#siteTable_organic { background: rgba(6, 102, 178, 0.1) none repeat scroll 0% 0%; margin-right: 325px; margin-top: -7px; left: -5px; border-width: medium 1px medium 3px; border-style: none solid; border-color: currentcolor rgb(229, 229, 229) currentcolor rgb(255, 69, 0); }
+#ad_sponsorship { max-width: 295px; }
+.organic-listing .link.promotedlink { margin-left: -1px; border-bottom: 1px solid rgb(229, 229, 229); }
+.flairselector { border: 1px solid rgb(59, 76, 98) ! important; }
+.flairselector .title { font-size: 0px ! important; }
+.flairselector .linkflair { border-left: medium none ! important; background: transparent none repeat scroll 0px 0px; width: 110px; }
+.flairselector h2 { color: rgb(255, 255, 255); font-size: 13px; background: rgb(59, 76, 98) none repeat scroll 0% 0% ! important; padding-top: 6px; font-weight: lighter ! important; text-transform: capitalize; padding-bottom: 6px; }
+.flairselector li:hover { background-color: transparent; }
+.flairselector form { border-top: 1px solid rgb(59, 76, 98); margin-bottom: 10px; }
+.flairselector.drop-choices.active { left: 45% ! important; margin-top: -172px; position: absolute; padding: 0px ! important; box-shadow: none; }
+.comments-page .flairselector.drop-choices.active { top: 50% ! important; left: 50% ! important; transform: translate(-50%, -50%); }
+.flairoptionpane { max-height: 600px; }
+.flairoptionpane li, .flairoptionpane ul { min-width: 120px; padding: 3px; }
+.nextprev a, .side .usertext-body .md ol a { transition: background-color 0.5s ease 0s; }
+.submit-page .roundfield { padding: 16px; width: 525px; background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); border-radius: 0px; }
+.submit-page .roundfield span.title { color: rgb(77, 87, 99); text-transform: capitalize; }
+.submit-page #newlink.submit.content .tabmenu.formtab a { padding: 16px; display: inline-block; text-align: center; background-color: rgb(255, 255, 255); color: rgb(77, 87, 99); text-transform: uppercase; font-weight: 700; transition: all 0.25s ease 0s; font-size: 16px; border: medium none; width: 247.5px; }
+.submit-page #newlink.submit.content .tabmenu.formtab a:hover { background-color: rgb(231, 233, 246); }
+.submit-page #newlink.submit.content .tabmenu.formtab .selected a { font-size: 16px; background-color: rgb(59, 76, 98); color: rgb(255, 255, 255); }
+#header #header-bottom-right #modmail:hover, .submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover { background-color: rgb(37, 158, 255); }
+.submit-page #newlink.submit.content .btn { width: 558px; height: auto; text-transform: capitalize; font-size: 17px; padding: 16px; text-align: center; }
+.submit-page #newlink.submit.content .btn::after { content: " your thread"; text-transform: none; }
+.formtabs-content { width: 520px; border-top: medium none; margin-top: -15px; }
+.formtabs-content .infobar { background-color: rgb(82, 157, 255); color: rgb(255, 255, 255); padding: 15px; border: medium none; margin: -69px 0px -5px; font-size: 14px; width: 529px; }
+form .spacer + .spacer { margin: 0px; }
+.content.submit .info-notice { background-color: rgb(255, 255, 255); border-radius: 2px; padding: 16px; margin-bottom: 0px; border: 1px solid rgb(229, 229, 229) ! important; }
+.self .expanded ~ .expando .usertext-body { animation: 700ms ease-in-out 0s normal forwards 1 running expandy; }
+@keyframes expandy {
+0% { transform: translateY(-100px); opacity: 0; }
+50% { transform: translateY(0px); }
+100% { transform: translateY(0px); opacity: 1; }
+}
+@keyframes expandy {
+0% { transform: translateY(-100px); opacity: 0; }
+50% { transform: translateY(0px); }
+100% { transform: translateY(0px); opacity: 1; }
+}
+.expando-button { cursor: pointer; float: left; height: 28px; width: 30px; }
+.expando-button.selftext.collapsed, .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded, .expando-button.selftext.expanded:hover { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-repeat: no-repeat; }
+.expando-button.selftext.collapsed { background-position: -195px -256px; }
+.expando-button.selftext.collapsed:hover { background-position: -155px -256px; }
+.expando-button.selftext.expanded { background-position: -265px -218px; }
+.expando-button.selftext.expanded:hover { background-position: -305px -218px; }
+.expando-button.video.collapsed, .expando-button.video.collapsed:hover, .expando-button.video.expanded { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") ! important; }
+.expando-button.video.collapsed { background-position: -301px -256px; }
+.expando-button.video.collapsed:hover { background-position: -261px -256px; }
+.expando-button.video.expanded { background-position: -265px -218px; }
+.expando-button.video.expanded:hover { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-repeat: no-repeat; background-position: -305px -218px; }
+.expando-button.image { cursor: pointer; display: inline-block; height: 28px ! important; margin-right: 11px; padding: 0px; vertical-align: top ! important; width: 30px ! important; }
+@media only screen and (min-resolution: 2dppx), not all {
+  .expando-button { cursor: pointer; float: left; height: 28px; width: 30px; background-color: rgb(255, 255, 255); background-image: none; background-repeat: no-repeat; background-attachment: scroll; background-clip: border-box; background-origin: padding-box; background-position: center center; background-size: 341px 331px ! important; }
+  .expando-button.selftext.collapsed, .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded, .expando-button.selftext.expanded:hover { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-repeat: no-repeat; }
+  .expando-button.selftext.collapsed { background-position: -195px -256px; }
+  .expando-button.selftext.collapsed:hover { background-position: -155px -256px; }
+  .expando-button.selftext.expanded { background-position: -265px -218px; }
+  .expando-button.selftext.expanded:hover { background-position: -305px -218px; }
+  .expando-button.video.collapsed, .expando-button.video.collapsed:hover, .expando-button.video.expanded { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") ! important; }
+  .expando-button.video.collapsed { background-position: -301px -256px; }
+  .expando-button.video.collapsed:hover { background-position: -261px -256px; }
+  .expando-button.video.expanded { background-position: -265px -218px; }
+  .expando-button.video.expanded:hover { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-repeat: no-repeat; background-position: -305px -218px; }
+  .expando-button.image { cursor: pointer; display: inline-block; height: 28px ! important; margin-right: 11px; padding: 0px; vertical-align: top ! important; width: 30px ! important; }
+  body > .content #siteTable .thing.self .thumbnail { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-position: -289px -139px; background-size: 341px 331px; }
+}
+.link .usertext-body .md { border-radius: 0px ! important; border: 1px solid rgb(204, 212, 232); background-color: rgb(255, 255, 255); }
+body > .content #siteTable .thing.self .thumbnail { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); width: 45px; height: 45px; margin: 10px 15px 10px 10px; background-repeat: no-repeat ! important; background-position: -289px -139px; }
+body > .content #siteTable .thing.stickied .thumbnail { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png"); background-repeat: no-repeat ! important; background-position: -289px -84px; margin-right: 15px; }
+body > .content #siteTable .thing .thumbnail.default, body > .content #siteTable .thing.over18 .thumbnail { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") ! important; background-repeat: no-repeat ! important; margin: 10px 15px 10px 10px; width: 45px; height: 45px; }
+body > .content #siteTable .thing.stickied .entry > .title .title { color: rgb(0, 166, 79); font-weight: 400; }
+body > .content #siteTable .thing.over18 .thumbnail { background-position: -286px -5px ! important; }
+body > .content #siteTable .thing .thumbnail.default { background-position: -47px -77px; background-size: 341px 331px; }
+.link .title, .submit-page #newlink.submit.content .btn, a[href*="#icon-more"] { font-family: "Segoe UI",Helvetica,sans-serif; }
+.link { padding: 10px 0px; border-left: 3px solid rgb(206, 192, 192); margin-bottom: 0px; border-bottom: 1px solid rgb(229, 229, 229); }
+.link .title, .newComments { color: rgb(59, 76, 98); }
+.link .title:visited { color: rgb(177, 177, 177); }
+.link.thing.visited .title { color: rgb(177, 177, 177); padding: 0px ! important; }
+.link.last-clicked { border-width: 0px 0px 0px 3px; border-style: none none none solid; border-color: currentcolor currentcolor currentcolor rgb(37, 158, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: rgb(248, 252, 255) none repeat scroll 0% 0%; }
+.link .score.likes { color: rgb(37, 158, 255); }
+.link .score.dislikes { color: rgb(127, 127, 127); }
+.link .flair { font-size: 1em; }
+.link .midcol { margin: 5px 7px; }
+.nextprev a { padding: 5px 0px 5px 15px; color: rgb(255, 255, 255); width: auto; display: block; background: rgb(59, 76, 98) none repeat scroll 0% 0%; border-radius: 0px; font-size: small; margin-top: -12px; margin-right: -1px; margin-left: -5px; text-transform: capitalize; }
+.report-reasons.rounded { display: block ! important; }
+.newComments { display: inline; }
+.linkinfo .totalvotes { color: rgb(73, 73, 73) ! important; }
+.arrow { background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") ! important; background-position: center center; outline: 0px none ! important; border: medium none ! important; }
+.arrow.up { background-position: -289px -194px; }
+.arrow.upmod { background-position: -296px -60px; }
+.arrow.down { background-position: -321px -60px; }
+.arrow.downmod { background-position: -271px -60px; }
+.arrow.down:hover, .arrow.up:hover { opacity: 0.6; }
+.arrow.up:active, .arrow.upmod:active { transform: translate(0px, -1px); }
+.arrow.down:active, .arrow.downmod:active { transform: translate(0px, 1px); }
+.linklisting { margin-right: 330px; bottom: 0px; margin-top: -7px; padding: 0px; border-right: 1px solid rgb(229, 229, 229); }
+.linklisting .nextprev, .sidecontentbox .helplink + .title h1 { font-size: 0px; }
+.linklisting .stickied { border-left: 3px solid rgb(0, 166, 79) ! important; background: rgb(248, 255, 251) none repeat scroll 0% 0% ! important; }
+.linklisting .over18, .linklisting .reported { background: rgba(226, 6, 44, 0.1) none repeat scroll 0% 0%; border-left: 3px solid rgb(226, 6, 44); }
+.linklisting .md { margin-bottom: 0px; }
+.linklisting .usertext-edit div textarea { margin-left: -10px; }
+.entry .buttons li a { padding: 0px; font-size: 1.145em; }
+.search-result-meta, .tagline { font-size: 1.145em; }
+#siteTable .thing { margin-left: -5px ! important; transition: all 0.2s ease 0s; }
+.listing-page .link:hover { border-left-color: rgb(37, 158, 255); background: rgb(249, 250, 252) none repeat scroll 0% 0%; }
+.entry .flat-list .report-button a, .res-nightmode .entry .flat-list .report-button a { color: rgb(217, 83, 79); }
+.reddit-infobar { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(230, 237, 246); }
+.reddit-infobar.with-icon { margin-left: -4px; }
+.reddit-infobar.with-icon::before { background-repeat: no-repeat; }
+.c-btn-primary { border-bottom: 2px solid rgb(66, 112, 162); color: rgb(255, 255, 255); border-radius: 0px; }
+.sitetable .comment, .sitetable .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: rgb(255, 255, 255) ! important; }
+.sitetable .comment .comment, .sitetable .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: rgb(255, 255, 255) ! important; }
+a.author { margin-right: 0.3em; }
+.panestack-title { margin: 0px 330px 0px -5px; padding: 4px 0px; background: rgb(59, 76, 98) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.panestack-title .title { font-size: 1.3em; margin: 10px 0px 10px 10px; }
+.panestack-title a.title-button, thead th a { color: rgb(255, 255, 255) ! important; }
+.panestack-title a.title-button.gold { background-color: transparent; border: medium none; }
+.thing.stickied a.title { font-weight: 700 ! important; font-size: large; }
+.green, .tagline .moderator { color: rgb(0, 166, 79); font-weight: 700; padding-left: 0px; padding-right: 1px; }
+.comment .moderator ~ .userattrs::after { position: absolute; border: 3px solid rgb(0, 166, 79); top: -0.7px; right: -1px; bottom: -1px; left: -1px; content: ""; opacity: 0.5; z-index: -1; }
+.stickied.comment .moderator ~ .userattrs::after { border: 0px none; }
+.stickied.comment .expand:hover { background: rgb(1, 166, 79) none repeat scroll 0% 0%; }
+.entry .flat-list .approve-button a { color: rgb(0, 166, 79); }
+.gold-accent { background-color: rgb(59, 76, 98); border: medium none; display: inline-block; color: rgb(255, 255, 255) ! important; }
+#noresults { padding: 10px; margin-right: 310px ! important; color: rgb(255, 255, 255); background: rgb(59, 76, 98) none repeat scroll 0% 0%; margin-left: 5px ! important; display: none; }
+.comments-page .sitetable.nestedlisting > .thing.stickied { background: rgb(248, 255, 251) none repeat scroll 0% 0% ! important; border-color: rgba(0, 166, 79, 0.1) rgba(0, 166, 79, 0.1) rgb(0, 166, 79); border-bottom: 3px solid rgb(0, 166, 79); }
+.comments-page .link .flat-list a.flairselectbtn { color: rgb(59, 76, 98) ! important; }
+.comments-page .usertext-edit div textarea { border: 1px solid rgb(0, 0, 0) ! important; opacity: 0.8; margin-top: 5px; outline: 0px none; display: block; clear: both; margin-bottom: 10px; background: rgb(255, 255, 255) url("R5FWzpQs1wL_fieEjcZeKqk4m7Q1TRsyXZLQqgwW6UI.png") no-repeat scroll 206px -240px ! important; }
+.comments-page .usertext-edit div textarea:focus { background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; opacity: 1; border-color: rgb(37, 158, 255) ! important; }
+.comments-page .link { border-left: 1px solid rgb(198, 198, 198) ! important; }
+.comments-page:not(.comment-permalink-page) .sitetable .comment { animation: 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0s normal both 1 running fade-in-bottom; }
+@keyframes fade-in-bottom {
+0% { transform: translateY(50px); opacity: 0; }
+100% { transform: translateY(0px); opacity: 1; }
+}
+@keyframes fade-in-bottom {
+0% { transform: translateY(50px); opacity: 0; }
+100% { transform: translateY(0px); opacity: 1; }
+}
+.commentarea .menuarea { margin: 5px 310px 5px 5px; }
+.commentarea .md { margin-bottom: 0px; }
+.commentarea .infobar { display: flex; justify-content: space-between; color: rgb(238, 238, 238); background: rgb(59, 76, 98) none repeat scroll 0% 0%; border: 0px none; }
+.commentarea .infobar a { color: rgb(238, 238, 238); }
+.commentarea .infobar p { background: rgb(37, 158, 255) none repeat scroll 0% 0%; padding: 10px; margin: -5px -10px -5px 10px; line-height: 8px; transition: all 0.25s ease 0s; }
+.commentarea .infobar.infobar.commentsignupbar { display: block; background: transparent none repeat scroll 0px 0px; }
+.commentarea .infobar.infobar.commentsignupbar .commentsignupbar__desc { background: transparent none repeat scroll 0px 0px; }
+.md { overflow: visible; }
+.md a { color: rgb(191, 4, 38); }
+.helplink ~ .content .author .helplink ~ .content .author:hover, .md a:hover { color: rgb(37, 158, 255); }
+.md code { white-space: normal; }
+.md blockquote { border-width: 1px 1px 1px 2px; border-style: solid; border-color: rgba(36, 156, 255, 0.1) rgba(36, 156, 255, 0.1) rgba(36, 156, 255, 0.1) rgb(37, 158, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(239, 239, 237); }
+.usertext.border .usertext-body { background-color: rgba(0, 120, 213, 0.3); width: 95%; }
+.wiki-page .pageactions { border-radius: 0px; border: 1px solid rgb(37, 158, 255); }
+.wiki-page .pageactions .wikiaction { margin: 0px ! important; border-radius: 0px ! important; }
+.wiki-page .pageactions .wikiaction:hover { background-color: rgb(37, 158, 255) ! important; color: rgb(255, 255, 255) ! important; }
+.wiki-page .pageactions .wikiaction-current, div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove { background-color: rgb(59, 76, 98); }
+.wiki-page .pageactions .wiki-page-content .nextprev a { margin-bottom: 12px; }
+ul.tabmenu.formtab { padding-left: 0px; }
+.buttons .comments.empty { color: rgb(59, 76, 98); }
+.gadget .right a, a[href*="#tech"] { font-family: "Segoe UI",Helvetica,sans-serif; text-align: center; }
+.sheets .col textarea { width: 98%; background: rgb(29, 31, 33) none repeat scroll 0% 0%; color: rgb(221, 221, 221) ! important; height: 712px ! important; font-family: SourceCodePro-Medium,monospace; }
+.panestack-title { border-bottom: medium none transparent; }
+.infobar.newsletterbar { box-sizing: border-box; position: relative; overflow: hidden; min-height: 80px; padding: 15px 20px 20px 25px; border-width: medium medium medium 3px; border-style: none none none solid; border-color: currentcolor currentcolor currentcolor rgb(255, 69, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px; background-color: rgb(48, 101, 155); margin: -7px 325px 7px 0px; left: -5px; }
+#eu-cookie-policy .reddit-infobar a { color: rgb(34, 34, 34) ! important; }
+.gadget .midcol { margin-right: 9px; }
+.gadget .right a { background: rgb(59, 76, 98) none repeat scroll 0% 0%; padding: 5px 10px; margin-right: 5px; display: block; color: rgb(255, 255, 255); font-size: 16px; transition: background-color 0.5s ease 0s; text-transform: capitalize; }
+.gadget .right a:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+span.clear-input-button, thead th { color: rgb(255, 255, 255); }
+#newlink-with-image-upload .clear-input-button { border-radius: 0px ! important; width: 33px ! important; height: 27px ! important; top: 0px ! important; line-height: 26px ! important; border: 1px solid gray; background: rgb(59, 76, 98) none repeat scroll 0% 0% ! important; transition: background-color 0.5s ease 0s; right: -10px ! important; }
+#newlink-with-image-upload .clear-input-button:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0% ! important; }
+#newlink-with-image-upload .image-upload-drop-target { padding: 15px ! important; }
+#newlink-with-image-upload .file-upload-button { background: rgb(59, 76, 98) none repeat scroll 0% 0%; border: medium none; padding: 7px 20px ! important; display: block ! important; margin: 6px -17px -17px ! important; transition: background-color 0.5s ease 0s; }
+#newlink-with-image-upload .file-upload-button:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+thead th { background: rgb(59, 76, 98) none repeat scroll 0% 0%; border: medium none ! important; }
+thead th:nth-child(2n) { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+tr:nth-child(2n) { background-color: rgb(255, 255, 255); }
+.drop-choices { border-color: rgb(232, 232, 232); }
+.drop-choices a.choice { border-bottom: 1px solid rgb(232, 232, 232); padding: 3px 6px; }
+@media (max-width: 880px) {
+  #siteTable_organic { margin-right: -5px; }
+  #header-bottom-left .tabmenu { width: calc(100% - 50px); padding-left: 50px; }
+  .side { display: none; }
+  body .linklisting { margin-right: 0px ! important; }
+  .footer::after { display: none ! important; }
+  .infobar { margin-right: 18px; }
+  .footer { border-right: 1px solid rgb(59, 76, 98); }
+  .panestack-title { margin: 0px 0px 0px -5px; }
+  .infobar.newsletterbar { margin: -7px -5px 7px 0px; }
+}
+.submitter::after { content: ""; position: absolute; top: -0.7px; right: -1px; bottom: -1px; left: -1px; text-align: right; padding: 0.25em 0.5em; border: 3px solid rgb(139, 185, 226); pointer-events: none; }
+body:lang(np):not(.subscriber) .arrow { pointer-events: none; }
+#header-bottom-right #modmail, a[href*="#icon-day"] { display: none; }
+#chat, .pinnable-content .thing { border-bottom: 0px none; }
+.pinnable-content.pinned { background-color: rgba(248, 248, 248, 0.95) ! important; }
+.expando-button.collapsed.crosspost, .expando-button.collapsed.crosspost:hover { width: 20px ! important; }
+#chat { position: absolute; margin-left: -26.65em; top: 0.8em; padding: 1.34em; background: rgb(45, 64, 89) url("2YySCW35ckzdwNSz6pf2IFLQQN500LWyzyUhLsBHkvg.png") no-repeat scroll 5px center; border: 0.2em solid rgb(255, 255, 255); transition: all 0.5s ease 0s; }
+#chat:hover, #header #header-bottom-right #modmail:hover { background-color: rgb(71, 101, 140); }
+#chat:active { background: rgb(234, 84, 85) url("2YySCW35ckzdwNSz6pf2IFLQQN500LWyzyUhLsBHkvg.png") no-repeat scroll 5px center; }
+.side { margin: 0px; padding-left: 30px; background: transparent none repeat scroll 0px 0px; }
+.side::after { content: " "; font-size: large; color: rgb(45, 64, 89); margin-left: 1.5em; }
+.sidee .md h2 { margin-top: 1.4em; }
+.side .md h3 { margin: 2em 0px 0.2em; }
+.side .md h4 { margin-bottom: 1.5em; }
+.side .md p { margin: 0.5em 0px; }
+.side .md p a { margin: 0px 0.2em; font-size: 1.1em; }
+.side .md p a:first-child { margin-left: 0px; }
+.side .md h1 { font-weight: 400; }
+.morelink a, .side .md h2, .side .md h3, .side .md h4 { color: rgb(255, 255, 255); font-size: 13px; font-weight: 400; }
+.side .md h1::after, .side .md h2::after, .side .md h3::after, .side .md h4::after, .sidecontentbox .title::after, .titlebox h1::after { display: block; position: absolute; z-index: -1; border-color: transparent rgb(230, 237, 246) transparent transparent; border-width: 10px; border-style: solid; content: ""; margin-left: -24px; }
+.side .md h1, .side .md h1 a, .side .md h2 a, .side .md h3 a, .side .md h4 a { color: rgb(255, 255, 255); font-size: 13px; }
+.side .titlebox div.subButtons, .side .titlebox h1.redditname + div, .side .titlebox > .fancy-toggle-button { padding: 5px 10px; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: medium 1px medium 5px; border-style: none solid; border-color: currentcolor rgb(230, 237, 246); border-radius: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 8pt; font-weight: 400; margin: 0px 5px 0px 0px; }
+.side .titlebox > .fancy-toggle-button { display: block ! important; width: 269.3px; }
+.side .titlebox div.subButtons { width: 269.3px; }
+.side div.titlebox ul { list-style-type: none; margin: 0px; padding: 0px; }
+.side .subscribe-button .add { animation: 2s ease-out 0s normal none infinite running pulsate; }
+@keyframes pulsate {
+0%, 100% { opacity: 0.7; }
+50% { opacity: 1; }
+}
+@keyframes pulsate {
+0%, 100% { opacity: 0.7; }
+50% { opacity: 1; }
+}
+@keyframes pulsate {
+0%, 100% { opacity: 0.7; }
+50% { opacity: 1; }
+}
+div.side div.tagline { display: block ! important; padding: 0px 10px 10px; border-top: medium none ! important; }
+div.side div.tagline, div.side form.flairtoggle, div.side form.leavecontributor-button, div.side span.subscribers { border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(230, 237, 246); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 0.945em; font-weight: 400; margin: 0px 5px 0px 0px; }
+div.side form.leavecontributor-button, div.side span.subscribers { padding: 10px; }
+div.side span.subscribers { padding: 5px 10px 10px; border-top: medium none; display: block; }
+div.side span.subscribers span { vertical-align: middle; }
+div.side span.subscribers span.number::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -192px -5px; display: block; float: left; width: 20px; height: 20px; content: ""; margin-right: 5px; margin-top: -3px; }
+div.side form.flairtoggle { display: block; padding: 5px 10px; border-top: medium none; border-bottom: medium none; }
+div.side p.users-online { padding-top: 5px; padding-bottom: 5px; border-top: medium none; border-bottom: medium none; }
+.morelink { border: 1px solid rgb(59, 76, 98); background: rgb(59, 76, 98) none repeat scroll 0% 0%; width: 145px; margin-right: 5px; transition: all 0.5s ease 0s; box-sizing: border-box; }
+.morelink a { font-family: "Segoe UI",Helvetica,sans-serif; letter-spacing: 0px; font-size: 0.9em; }
+.morelink:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; border-color: rgb(37, 158, 255); }
+.morelink:hover a { color: rgb(255, 255, 255); border-color: rgb(37, 158, 255); }
+.helplink ~ .content .author[href*="AutoModerator"], .helplink ~ .content .author[href*="flair_your_post_bot"], .morelink .nub { display: none; }
+.submit .morelink { float: left; }
+.submit-page .titlebox h1 { margin-top: 0px ! important; }
+.redditname { margin-top: 53px ! important; }
+.icon-menu li, .reddit-link { border-left: 5px solid rgb(230, 237, 246); background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); }
+.reddit-link { font-size: 1em; padding: 7px 10px 10px; margin-right: 5px; }
+.icon-menu li { display: block; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; padding: 7px 10px 10px ! important; margin-right: 5px ! important; }
+.search-page .side .spacer { margin: 10px 0px; }
+.sidebox.create { display: none ! important; }
+.helplink ~ .content .author::after { content: "- Moderator"; margin-left: 5px; }
+.helplink ~ .content .flair, .sidecontentbox .content .linkflairlabel { display: none; }
+.linkinfo { background-color: transparent; }
+.sidecontentbox .helplink + .title h1::before { font-size: 13px ! important; content: "Moderators team"; text-transform: capitalize; }
+div.titlebox .md h3:hover + ul { display: block; transition: max-height 0.8s ease-out 0s; }
+div.titlebox .md ul li strong:first-child, div.titlebox .md ul:hover { display: block; }
+.sidecontentbox .content a.author, .sidecontentbox .more, div.titlebox .md ul li { background-color: rgb(255, 255, 255); border-left: 5px solid rgb(230, 237, 246); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); font-size: 0.945em; }
+div.titlebox .md ul li { padding: 7px 10px 10px; transition: all 0.2s ease 0s; margin-right: 5px; }
+.sidecontentbox .content a.author, .sidecontentbox .more { margin-right: 5px ! important; }
+.sidecontentbox .more { display: block; padding: 7px 10px 10px ! important; margin: 0px; }
+.sidecontentbox .content a.author:hover, .sidecontentbox .more:hover { background-color: rgb(248, 252, 255); border-left-color: rgb(204, 212, 232); }
+.sidecontentbox .content { border: medium none; padding: 0px; }
+.sidecontentbox .more { text-align: center; }
+.sidecontentbox .more a { color: rgb(51, 102, 153); }
+.sidecontentbox .title { background-color: rgb(59, 76, 98); padding: 10px; border-left: 5px solid rgb(82, 157, 255); margin-top: 0px; margin-bottom: 0px; margin-left: -10px; font-weight: 400; }
+.sidecontentbox a.helplink { display: block; background: rgb(59, 76, 98) none repeat scroll 0% 0%; margin-right: 5px; margin-bottom: 10px; float: none; margin-top: 4px; clear: both; text-align: center; box-sizing: border-box; color: rgb(255, 255, 255); }
+.sidecontentbox a.helplink:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+.sidecontentbox .title h1 { color: rgb(255, 255, 255); }
+.icon-menu li:hover, .reddit-link:hover, div.titlebox .md ul li:hover { background-color: rgb(248, 252, 255); border-left-color: rgb(204, 212, 232); }
+div.titlebox .md h3::before { content: "+"; color: rgb(255, 255, 255); padding-right: 5px; }
+div.titlebox .md h2, div.titlebox .md h3, div.titlebox .md h4 { margin-bottom: 0px; font-weight: 400; cursor: default; }
+.date::before, div.titlebox .md h2, div.titlebox .md h3, div.titlebox .md h4, div.titlebox h1 { border-left: 5px solid rgb(82, 157, 255); background-color: rgb(59, 76, 98); padding: 10px; margin-top: 0px; margin-left: -10px; }
+div.titlebox h1 { font-weight: 400; font-size: 13px; margin-bottom: 0px; }
+div.titlebox div.styleToggle, div.titlebox span.fancy-toggle-button a.active { padding: 5px 10px; color: rgb(255, 255, 255); font-size: 8pt; display: block ! important; background-image: none; border-radius: 0px; font-weight: 400; margin: 0px; border: medium none; }
+div.titlebox div.styleToggle { line-height: 20px; background-color: rgb(59, 76, 98); }
+div.titlebox span.fancy-toggle-button a.active { background-color: rgb(37, 158, 255); }
+div.titlebox div.styleToggle input, div.titlebox div.styleToggle label { vertical-align: middle; margin: 0px; }
+div.titlebox span.fancy-toggle-button a.active.remove::before { content: ""; padding-right: 5px; }
+div.titlebox span.fancy-toggle-button a.active.remove:hover::after { content: "=("; font-style: italic; padding-left: 5px; }
+div.titlebox span.fancy-toggle-button a.active.add::before { content: "+"; padding-right: 5px; color: rgb(255, 255, 255); }
+#RESShortcutsAdd, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsSort, #RESShortcutsTrash { width: 17px ! important; }
+#RESShortcutsAdd, #RESShortcutsEditContainer, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsSort, #RESShortcutsTrash { background-color: transparent ! important; }
+#RESShortcutsAdd:hover, #RESShortcutsEditContainer:hover, #RESShortcutsLeft:hover, #RESShortcutsRight:hover, #RESShortcutsSort:hover, #RESShortcutsTrash:hover { color: rgb(240, 240, 240) ! important; }
+.sidecontentbox .content a.author { display: block; margin: 0px; padding: 7px 10px 10px ! important; }
+.sidecontentbox .content a.author:hover { color: rgb(37, 158, 255); }
+#search input[type="text"] { width: 295px ! important; border-color: rgb(59, 76, 98); }
+#searchexpando { padding: 10px; border: 1px solid rgb(230, 237, 246); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 8pt; border-radius: 0px; font-weight: 400; margin: 0px 5px 0px 0px; width: 273px ! important; }
+#header-bottom-right .separator, .leavecontributor-button, .leavemoderator { display: none; }
+.icon-menu a { background: transparent none repeat scroll 0px 0px; }
+.linkinfo, .titlebox .bottom { border: medium none; }
+#header-bottom-right .user span a, .pagename a, .titlebox h1 a { color: rgb(255, 255, 255); }
+.titlebox .md h3 + ul:hover, .titlebox .md h3:hover + ul { max-height: 600px; transition-delay: 0s; }
+div.titlebox .md h3 + ul { display: block; transition: max-height 1.8s ease-out 2s; overflow: hidden; max-height: 0px; }
+.linkinfo { padding: 0px; }
+.linkinfo .score, .linkinfo .shortlink { color: rgb(73, 73, 73); border-left: 5px solid rgb(230, 237, 246); background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); font-size: 8pt; margin-right: 5px; }
+.linkinfo .score { padding: 7px 10px; margin-top: 10px; }
+.linkinfo .shortlink { display: block; font-weight: 600; text-transform: capitalize; margin-top: 0px; padding: 7px 10px 10px; }
+.date { position: relative; }
+.date::before { content: "Date "; display: block; color: rgb(255, 255, 255) ! important; text-transform: none; cursor: pointer; margin-bottom: 6px; font: 400 small verdana,arial,helvetica,sans-serif; }
+.date::after { display: block; position: absolute; z-index: -1; border-color: transparent rgb(230, 237, 246) transparent transparent; border-width: 10px; border-style: solid; content: ""; margin-left: -19px; margin-top: -32px; }
+.date span, .totalvotes { display: block; background-color: rgb(255, 255, 255); border-left: 5px solid rgb(230, 237, 246); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); }
+.date span, .date time { color: rgb(73, 73, 73); font-size: 9pt; }
+.date span { margin: -6px 5px -10px 0px; padding: 7px 0px 10px 10px; }
+.date time { position: absolute; top: 50%; left: 55%; padding: 9px 0px 10px; }
+.totalvotes { color: rgb(73, 73, 73) ! important; font-weight: 600; text-transform: capitalize; margin-top: 0px; padding: 7px 10px 10px; font-size: 8pt ! important; margin-right: 5px; }
+.linkinfo .shortlink input { height: 10px; border: medium none; width: 181px; font-size: 13px; }
+.account-activity-box, .sidecontentbox a.helplink { font-size: 16px; padding: 10px; transition: background-color 0.5s ease 0s; text-transform: capitalize; }
+.account-activity-box { display: block ! important; background: rgb(59, 76, 98) none repeat scroll 0% 0%; margin-right: 5px; }
+.account-activity-box:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+.account-activity-box a { color: rgb(255, 255, 255); padding: 10px 70px; }
+.side .views { color: rgb(73, 73, 73); border-left: 5px solid rgb(230, 237, 246); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); margin-right: 5px; padding: 7px 10px; }
+#header #header-bottom-right { background: transparent none repeat scroll 0px 0px; bottom: -18px; top: auto; padding: 3px; height: 59px; font-family: "Segoe UI",Helvetica,sans-serif; }
+#header-bottom-right .user { position: relative; top: 0px; width: 119px; padding-left: 42px; padding-top: 5px; font-size: 13px; color: rgb(234, 234, 234); line-height: 170%; background: rgb(59, 76, 98) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -110px -289px; float: left; border: 2px solid rgb(255, 255, 255); cursor: pointer; }
+#header-bottom-right .user > a { text-indent: 4px; color: rgb(255, 255, 255); display: block; line-height: 12px; white-space: nowrap; }
+#header-bottom-right #mail { top: 0px ! important; width: 42px; height: 42px; display: inline-block; }
+#header-bottom-right #modmail { position: absolute; margin-left: -267px; top: 3px; padding-left: 26px; padding-top: 5px; background: rgb(59, 76, 98) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -224px -72px; border: 2px solid rgb(255, 255, 255); }
+#beta-help, .beta-hint a { position: absolute ! important; }
+#modmail.havemail { background: rgb(255, 69, 0) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -224px -72px ! important; }
+#header #header-bottom-right .logout { display: inline-block; }
+#header #header-bottom-right #mail, #header #header-bottom-right .choice, #header #header-bottom-right .logout a { margin-left: 5px; width: 42px ! important; height: 42px; display: inline-block; text-indent: 50px; overflow: hidden; transition: background-color 0.5s ease 0s; }
+#header #header-bottom-right #mail.nohavemail { background: rgb(59, 76, 98) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll 0px -114px; border-radius: 1px; border: 2px solid rgb(255, 255, 255); }
+#header #header-bottom-right #mail.havemail { background: rgb(255, 69, 0) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll 0px -114px; border-radius: 1px; border: 2px solid rgb(255, 255, 255); }
+.res #header #header-bottom-right #mail.havemail { background: rgb(255, 69, 0) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll 0px -115px; }
+#header #header-bottom-right .choice { background: rgb(59, 76, 98) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -127px -114px; border-radius: 1px; border: 2px solid rgb(255, 255, 255); }
+.beta-hint, .side .usertext-body .md ol a:hover, .side .usertext-body .md ol a[href$="#achieve"]:hover, .side .usertext-body .md ol a[href$="#special"]:hover, .side .usertext-body .md ol a[href$="#sticky"]:hover, .side .usertext-body .md ol a[href$="#stickyg"]:hover, .side .usertext-body .md ol a[href$="#update"]:hover { opacity: 1; }
+.beta-hint a { top: 0px; left: -78px; color: transparent ! important; background-color: rgb(248, 95, 115); background-image: url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") ! important; background-repeat: no-repeat ! important; background-size: 341px 331px ! important; background-position: -72px -143px ! important; width: 42px; height: 42px; border-radius: 1px; border: 2px solid rgb(255, 255, 255); transition: background-color 0.5s ease 0s; }
+.beta-hint a:hover { background-color: green ! important; }
+#beta-help { background: rgb(255, 255, 225) none repeat scroll 0% 0% ! important; color: rgb(0, 0, 0) ! important; left: 1200px ! important; top: 170px ! important; }
+.res .beta-hint a { display: none; }
+#header #header-bottom-right .logout a { background: rgb(59, 76, 98) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -127px -42px; border-radius: 1px; border: 2px solid rgb(255, 255, 255); }
+#header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail, #header #header-bottom-right .choice, #header #header-bottom-right .logout a, #header-bottom-right #modmail, #header-bottom-right .user, .user .userkarma { border-bottom: medium none; }
+#header #header-bottom-right #mail:hover, #header #header-bottom-right .choice:hover, #header #header-bottom-right .user:hover { background-color: rgb(37, 158, 255); }
+#header #header-bottom-right .logout a:hover { text-indent: -99999px; color: rgb(255, 255, 255); background: rgb(206, 53, 44) url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -127px -42px; }
+#openRESPrefs { position: absolute; right: 365px; top: 22px; }
+#mailCount { position: absolute; left: 208px; top: -2px; color: rgb(255, 255, 255); font-size: 14px; overflow: hidden; }
+.message-count { background: rgb(37, 158, 255) none repeat scroll 0% 0%; height: 42px; font-size: medium; line-height: 42px ! important; margin-left: -4px; vertical-align: top; display: none; }
+.user .userkarma { cursor: help; }
+#RESAccountSwitcherIconOverlay { display: none ! important; }
+#RESAccountSwitcherIcon { float: right; margin-right: 5px; margin-top: -10px; background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -264px -5px ! important; }
+#new_modmail { position: absolute; left: -75px; }
+.md-container-small .md .-text, .md-container-small .md li, .md-container-small .md p, .md-container-small .md pre > code, .md-container-small .md td, .md-container-small .md th, .side .md .-text, .side .md li, .side .md p, .side .md pre > code, .side .md td, .side .md th { list-style: outside none none; }
+.side .usertext-body .md ol { position: absolute; top: 30px; right: 0px; margin: 0px 30px 0px 0px; padding: 0px; z-index: 99; }
+.side .usertext-body .md ol a { background-color: rgb(87, 181, 255); display: inline-block; font-size: 12px; font-weight: 400; padding: 5px 5px 5px 0px; text-decoration: none; margin-bottom: 3px; opacity: 0.8; }
+.side .usertext-body .md ol a[href$="#special"] { animation: 3s ease-out 0s normal none infinite running pulsate; }
+.side .md > ol li a[href$="#special"]::after, .side .md > ol li a[href$="#special"]::before, .side .md > ol li a[href$="#sticky"]::after, .side .md > ol li a[href$="#sticky"]::before { margin: 0px 5px 0px 0px; font-weight: 700; padding: 5px 6px; }
+.side .usertext-body .md ol a[href$="#special"] { border: 2px solid rgb(254, 254, 254); display: inline-block; font-size: 12px; font-weight: 400; padding: 5px 5px 5px 0px; text-decoration: none; margin-bottom: 3px; transition: opacity 0.5s ease 0s; background-color: rgb(37, 158, 255); opacity: 0.8; }
+.side .usertext-body .md ol a[href$="#special"]::before { margin: 0px 5px 0px 0px; font-weight: 700; padding: 5px 6px; background-color: rgb(59, 76, 98); content: "Event"; color: rgb(255, 255, 255); }
+.side .usertext-body .md ol a[href$="#achieve"] { background-color: rgb(40, 188, 7); opacity: 0.8; }
+.side .md > ol li a[href$="#achieve"]::after, .side .md > ol li a[href$="#achieve"]::before, .side .md > ol li a[href$="#update"]::after, .side .md > ol li a[href$="#update"]::before, .side .usertext-body .md ol a[href$="#achieve"]::before, .side .usertext-body .md ol a[href$="#sticky"]::before { margin: 0px 5px 0px 0px; font-weight: 700; padding: 5px 6px; }
+.side .usertext-body .md ol a[href$="#achieve"]::before { background-color: rgb(13, 150, 5); content: "Achievement unlocked"; color: rgb(255, 255, 255); }
+.side .usertext-body .md ol a[href$="#achieve"], .side .usertext-body .md ol a[href$="#sticky"], .side .usertext-body .md ol a[href$="#stickyg"] { font-weight: 400; padding: 5px 5px 5px 0px; margin-bottom: 3px; border: 2px solid rgb(254, 254, 254); display: inline-block; font-size: 12px; transition: opacity 0.5s ease 0s; text-decoration: none; }
+.side .usertext-body .md ol a[href$="#sticky"] { background-color: rgb(37, 158, 255); opacity: 0.8; }
+.side .usertext-body .md ol a[href$="#sticky"]::before { background-color: rgb(46, 166, 25); content: "Sticky"; color: rgb(255, 255, 255); }
+.side .usertext-body .md ol a[href$="#stickyg"] { background-color: rgb(40, 188, 7); opacity: 0.8; }
+.side .usertext-body .md ol a[href$="#stickyg"]::before, .side .usertext-body .md ol a[href$="#update"]::before { margin: 0px 5px 0px 0px; font-weight: 700; padding: 5px 6px; }
+.side .usertext-body .md ol a[href$="#stickyg"]::before { background-color: rgb(13, 150, 5); content: "Sticky"; color: rgb(255, 255, 255); }
+.side .usertext-body .md ol a[href$="#update"] { border: 2px solid rgb(254, 254, 254); background-color: rgb(22, 134, 240); display: inline-block; font-size: 12px; font-weight: 400; padding: 5px 5px 5px 0px; text-decoration: none; margin-bottom: 3px; opacity: 0.8; transition: opacity 0.5s ease 0s; }
+.side .usertext-body .md ol a[href$="#update"]::before { background-color: rgb(59, 76, 98); content: "Update"; color: rgb(255, 255, 255); }
+.side .md del { color: rgb(255, 255, 255); text-decoration: none; }
+.res-nightmode body, html[lang^="nm"] body { background: rgb(26, 26, 26) none repeat scroll 0% 0% ! important; }
+.res-nightmode #sr-header-area, html[lang^="nm"] #sr-header-area { background-color: rgb(12, 23, 34) ! important; }
+.res-nightmode a, html[lang^="nm"] a { color: rgb(248, 248, 255); }
+.res-nightmode .morelink a, .res-nightmode a[href*="#Donsiders"], .res-nightmode a[href*="#btn"], html[lang^="nm"] .morelink a, html[lang^="nm"] a[href*="#Donsiders"], html[lang^="nm"] a[href*="#btn"] { color: rgb(255, 255, 255) ! important; }
+.res-nightmode .shortlink input, html[lang^="nm"] .shortlink input { background: rgb(57, 57, 57) none repeat scroll 0% 0%; color: rgb(221, 221, 221); }
+.res-nightmode .linklisting, .res-nightmode .md td, .res-nightmode .md th, html[lang^="nm"] .linklisting, html[lang^="nm"] .md td, html[lang^="nm"] .md th { border-color: rgb(45, 46, 50) ! important; }
+.res-nightmode #previoussearch #moresearchinfo, .res-nightmode .comments-page .usertext-edit div textarea, .res-nightmode .md, .res-nightmode .md del, .res-nightmode .roundfield label, .res-nightmode .search-result-body, .res-nightmode .submit-page .roundfield .title, .res-nightmode div.side #searchexpando, html[lang^="nm"] #previoussearch #moresearchinfo, html[lang^="nm"] .comments-page .usertext-edit div textarea, html[lang^="nm"] .md, html[lang^="nm"] .md del, html[lang^="nm"] .roundfield label, html[lang^="nm"] .search-result-body, html[lang^="nm"] .submit-page .roundfield .title, html[lang^="nm"] div.side #searchexpando { color: rgb(238, 238, 238) ! important; }
+.res-nightmode .md blockquote, html[lang^="nm"] .md blockquote { background: rgba(0, 87, 166, 0.24) none repeat scroll 0% 0%; border-left: 2px solid rgb(37, 158, 255) ! important; color: rgb(136, 136, 136) ! important; }
+.res-nightmode .md code, html[lang^="nm"] .md code { border-width: medium medium medium 3px ! important; border-style: none none none solid ! important; border-color: currentcolor currentcolor currentcolor rgb(37, 158, 255) ! important; -moz-border-top-colors: none ! important; -moz-border-right-colors: none ! important; -moz-border-bottom-colors: none ! important; -moz-border-left-colors: none ! important; border-image: none ! important; background-color: rgb(57, 57, 57) ! important; border-radius: 0px ! important; }
+.res-nightmode .commentingAs, .res-nightmode .date time, .res-nightmode .edit-stylesheet.choice::after, .res-nightmode .linkinfo .score, .res-nightmode .linkinfo .shortlink, .res-nightmode .side .views, .res-nightmode .wiki-page .wiki-page-content, html[lang^="nm"] .commentingAs, html[lang^="nm"] .date time, html[lang^="nm"] .edit-stylesheet.choice::after, html[lang^="nm"] .linkinfo .score, html[lang^="nm"] .linkinfo .shortlink, html[lang^="nm"] .side .titlebox > .fancy-toggle-button, html[lang^="nm"] .side .views, html[lang^="nm"] .wiki-page .wiki-page-content { color: rgb(221, 221, 221) ! important; }
+.res-nightmode .date span, .res-nightmode .date time, html[lang^="nm"] .date span, html[lang^="nm"] .date time { border-bottom: 1px solid rgb(57, 57, 57) ! important; background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; border-top: 1px solid rgb(57, 57, 57) ! important; }
+.res-nightmode #header, .res-nightmode #newlink-with-image-upload #new-link-preview, .res-nightmode .account-activity-box, .res-nightmode .date::before, .res-nightmode .morelink, .res-nightmode .nextprev a, .res-nightmode .res .RESDashboardToggle, .res-nightmode .res .RESshortcutside, .res-nightmode .titlebox h1, .res-nightmode div.titlebox .md h1, .res-nightmode div.titlebox .md h2, .res-nightmode div.titlebox .md h3, .res-nightmode div.titlebox .md h4, html[lang^="nm"] #header, html[lang^="nm"] #newlink-with-image-upload #new-link-preview, html[lang^="nm"] .account-activity-box, html[lang^="nm"] .date::before, html[lang^="nm"] .morelink, html[lang^="nm"] .nextprev a, html[lang^="nm"] .res .RESDashboardToggle, html[lang^="nm"] .res .RESshortcutside, html[lang^="nm"] .titlebox h1, html[lang^="nm"] div.titlebox .md h1, html[lang^="nm"] div.titlebox .md h2, html[lang^="nm"] div.titlebox .md h3, html[lang^="nm"] div.titlebox .md h4 { background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; }
+.res-nightmode .res .RESDashboardToggle, .res-nightmode .res .RESshortcutside, html[lang^="nm"] .res .RESDashboardToggle, html[lang^="nm"] .res .RESshortcutside { color: rgb(238, 238, 238); }
+.res-nightmode #header #header-bottom-right #mail:hover, .res-nightmode #header #header-bottom-right #modmail:hover, .res-nightmode #header #header-bottom-right .choice:hover, .res-nightmode #header #header-bottom-right .logout:hover, .res-nightmode #header #header-bottom-right .user:hover, html[lang^="nm"] #header #header-bottom-right #mail:hover, html[lang^="nm"] #header #header-bottom-right #modmail:hover, html[lang^="nm"] #header #header-bottom-right .choice:hover, html[lang^="nm"] #header #header-bottom-right .logout:hover, html[lang^="nm"] #header #header-bottom-right .user:hover { background-color: rgb(57, 57, 57) ! important; }
+.res-nightmode #header #header-bottom-right .logout a, .res-nightmode #header #header-bottom-right #mail.nohavemail, .res-nightmode #header-bottom-right #modmail, .res-nightmode #header-bottom-right .choice, .res-nightmode #header-bottom-right .user, html[lang^="nm"] #header #header-bottom-right .logout a, html[lang^="nm"] #header #header-bottom-right #mail.nohavemail, html[lang^="nm"] #header-bottom-right #modmail, html[lang^="nm"] #header-bottom-right .choice, html[lang^="nm"] #header-bottom-right .user { background-color: transparent ! important; outline: 0px none ! important; }
+.res-nightmode #header-bottom-left .tabmenu, .res-nightmode #header-img, .res-nightmode #header-img.default-header, html[lang^="nm"] #header-bottom-left .tabmenu, html[lang^="nm"] #header-img, html[lang^="nm"] #header-img.default-header { background: transparent none repeat scroll 0px 0px ! important; }
+.res-nightmode #header-bottom-left .tabmenu, .res-nightmode .new-comment .usertext-body, html[lang^="nm"] #header-bottom-left .tabmenu, html[lang^="nm"] .new-comment .usertext-body { background-color: transparent; border: medium none; }
+.res-nightmode .date, .res-nightmode .date::before, .res-nightmode .flair, html[lang^="nm"] .date, html[lang^="nm"] .date::before, html[lang^="nm"] .flair { color: rgb(221, 221, 221) ! important; }
+.res-nightmode .footer, html[lang^="nm"] .footer { border-right: medium none ! important; border-top: medium none; }
+.res-nightmode .footer div.col a, .res-nightmode .footer::after, .res-nightmode div.side div.tagline, .res-nightmode div.side form.flairtoggle, .res-nightmode div.side span.subscribers, .res-nightmode div.titlebox .md ul li, html[lang^="nm"] .footer div.col a, html[lang^="nm"] .footer::after, html[lang^="nm"] div.side div.tagline, html[lang^="nm"] div.side form.flairtoggle, html[lang^="nm"] div.side span.subscribers, html[lang^="nm"] div.titlebox .md ul li { color: rgb(221, 221, 221) ! important; }
+.res-nightmode .sidecontentbox .title, .res-nightmode .sidecontentbox a.helplink, html[lang^="nm"] .sidecontentbox .title, html[lang^="nm"] .sidecontentbox a.helplink { background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; }
+.res-nightmode .icon-menu li, .res-nightmode .linkinfo .score, .res-nightmode .linkinfo .shortlink, .res-nightmode .reddit-link, .res-nightmode .side .views, .res-nightmode .sidecontentbox .content a.author, .res-nightmode .sidecontentbox .more, .res-nightmode .totalvotes, .res-nightmode div #searchexpando, .res-nightmode div.titlebox .md ul li, html[lang^="nm"] .icon-menu li, html[lang^="nm"] .linkinfo .score, html[lang^="nm"] .linkinfo .shortlink, html[lang^="nm"] .reddit-link, html[lang^="nm"] .side .views, html[lang^="nm"] .sidecontentbox .content a.author, html[lang^="nm"] .sidecontentbox .more, html[lang^="nm"] .totalvotes, html[lang^="nm"] div #searchexpando, html[lang^="nm"] div.titlebox .md ul li { border-width: 1px 1px 1px 5px ! important; border-style: solid ! important; border-color: rgb(57, 57, 57) ! important; background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; }
+.res-nightmode .icon-menu li:hover, .res-nightmode .linkinfo .score:hover, .res-nightmode .linkinfo .shortlink:hover, .res-nightmode .reddit-link:hover, .res-nightmode .side .views:hover, .res-nightmode .sidecontentbox .content a.author:hover, .res-nightmode .sidecontentbox .more:hover, .res-nightmode .totalvotes:hover, .res-nightmode div #searchexpando:hover, .res-nightmode div.titlebox .md ul li:hover, html[lang^="nm"] .icon-menu li:hover, html[lang^="nm"] .linkinfo .score:hover, html[lang^="nm"] .linkinfo .shortlink:hover, html[lang^="nm"] .reddit-link:hover, html[lang^="nm"] .side .views:hover, html[lang^="nm"] .sidecontentbox .content a.author:hover, html[lang^="nm"] .sidecontentbox .more:hover, html[lang^="nm"] .totalvotes:hover, html[lang^="nm"] div #searchexpando:hover, html[lang^="nm"] div.titlebox .md ul li:hover { background-color: rgb(57, 57, 57) ! important; border-left-color: rgb(204, 212, 232) ! important; }
+.res-nightmode div.side .titlebox div.subButtons, .res-nightmode div.side .titlebox h1.redditname + div, .res-nightmode div.side .titlebox > .fancy-toggle-button, .res-nightmode div.side div.leavemoderator, .res-nightmode div.side form.leavecontributor-button, .res-nightmode div.side p.users-online, .res-nightmode div.side span.subscribers, html[lang^="nm"] div.side .titlebox div.subButtons, html[lang^="nm"] div.side .titlebox h1.redditname + div, html[lang^="nm"] div.side .titlebox > .fancy-toggle-button, html[lang^="nm"] div.side div.leavemoderator, html[lang^="nm"] div.side form.leavecontributor-button, html[lang^="nm"] div.side p.users-online, html[lang^="nm"] div.side span.subscribers { border-width: 1px 1px 1px 5px ! important; border-style: solid ! important; border-color: rgb(57, 57, 57) ! important; background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; }
+.res-nightmode div.side div.tagline, .res-nightmode div.side form.flairtoggle, html[lang^="nm"] div.side div.tagline, html[lang^="nm"] div.side form.flairtoggle { border-left: 5px solid rgb(57, 57, 57) ! important; border-right: 1px solid rgb(57, 57, 57) ! important; border-bottom: medium none ! important; background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; }
+.res-nightmode .titlebox form.toggle, html[lang^="nm"] .titlebox form.toggle { background: rgb(34, 34, 34) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(57, 57, 57) ! important; border-left: 5px solid rgb(57, 57, 57) ! important; border-right: 1px solid rgb(57, 57, 57) ! important; color: rgb(238, 238, 238); }
+.res-nightmode .sitetable .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: rgb(57, 57, 57) ! important; }
+.res-nightmode .sitetable .comment, .res-nightmode .sitetable .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .res-nightmode button, html[lang^="nm"] .sitetable .comment, html[lang^="nm"] .sitetable .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, html[lang^="nm"] button { background-color: rgb(34, 34, 34) ! important; }
+.res-nightmode button.save:hover, html[lang^="nm"] button.save:hover { border-color: rgb(124, 216, 124); }
+.res-nightmode button.cancel:hover, html[lang^="nm"] button.cancel:hover { border-color: rgb(249, 115, 111); }
+.res-nightmode a[href*="#square"]::before, html[lang^="nm"] a[href*="#square"]::before { border: 3px solid rgb(57, 57, 57); }
+.res-nightmode .link, html[lang^="nm"] .link { border-bottom: 1px solid rgb(45, 46, 50) ! important; }
+.res-nightmode .listing-page .link:hover, html[lang^="nm"] .listing-page .link:hover { background: rgb(57, 57, 57) none repeat scroll 0% 0% ! important; border-left-color: rgb(169, 169, 169) ! important; }
+.res-nightmode tr:nth-child(2n), html[lang^="nm"] tr:nth-child(2n) { background-color: rgb(5, 5, 5); }
+.res-nightmode .titlebox h1::after, .res-nightmode div.titlebox .md h1::after, .res-nightmode div.titlebox .md h2::after, .res-nightmode div.titlebox .md h3::after, .res-nightmode div.titlebox .md h4::after, .res-nightmode div.titlebox .sidecontentbox .title::after, .res-nightmode div.titlebox h1::after, html[lang^="nm"] .titlebox h1::after, html[lang^="nm"] div.titlebox .md h1::after, html[lang^="nm"] div.titlebox .md h2::after, html[lang^="nm"] div.titlebox .md h3::after, html[lang^="nm"] div.titlebox .md h4::after, html[lang^="nm"] div.titlebox .sidecontentbox .title::after, html[lang^="nm"] div.titlebox h1::after { display: block; position: absolute; z-index: -1; border-color: transparent rgb(57, 57, 57) transparent transparent ! important; }
+.res-nightmode #eu-cookie-policy .reddit-infobar, .res-nightmode #search input[type="text"], .res-nightmode .flairselector, html[lang^="nm"] #eu-cookie-policy .reddit-infobar, html[lang^="nm"] #search input[type="text"], html[lang^="nm"] .flairselector { background-color: rgb(34, 34, 34) ! important; color: rgb(221, 221, 221); }
+.res-nightmode .comments-page .usertext-edit div textarea, html[lang^="nm"] .comments-page .usertext-edit div textarea { background-color: rgb(34, 34, 34) ! important; }
+.res-nightmode .reddit-infobar, html[lang^="nm"] .reddit-infobar { background: rgb(32, 32, 32) none repeat scroll 0% 0%; border: 1px solid rgb(45, 46, 50); }
+.res-nightmode .reddit-infobar.with-icon::before, html[lang^="nm"] .reddit-infobar.with-icon::before {  }
+.res-nightmode .comment .usertext .md p > a:visited, .res-nightmode .md a, .res-nightmode h2 a:visited, html[lang^="nm"] .comment .usertext .md p > a:visited, html[lang^="nm"] .md a, html[lang^="nm"] h2 a:visited { color: rgb(52, 152, 219); }
+.res-nightmode textarea, html[lang^="nm"] textarea { color: rgb(0, 0, 0) ! important; }
+.res-nightmode .content, html[lang^="nm"] .content { margin-bottom: 0px; margin-top: 0px; }
+.res-nightmode input[type="button"], .res-nightmode input[type="reset"], .res-nightmode input[type="submit"], html[lang^="nm"] input[type="button"], html[lang^="nm"] input[type="reset"], html[lang^="nm"] input[type="submit"] { border: medium none; }
+.res-nightmode .side .spacer .titlebox .redditname, html[lang^="nm"] .side .spacer .titlebox .redditname { border-left-color: rgb(37, 158, 255); }
+.res-nightmode .gold-accent, html[lang^="nm"] .gold-accent { background: rgb(59, 76, 98) none repeat scroll 0% 0%; }
+.res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title, html[lang^="nm"] .thing .title:visited, html[lang^="nm"] .thing.visited .title { color: rgb(128, 140, 148); }
+.res-nightmode .thing .title, html[lang^="nm"] .thing .title { color: rgb(181, 196, 208); }
+.res-nightmode .content.submit .info-notice, .res-nightmode .submit-page .roundfield, html[lang^="nm"] .content.submit .info-notice, html[lang^="nm"] .submit-page .roundfield { background-color: rgb(34, 34, 34); color: rgb(238, 238, 238); }
+.res-nightmode #header #header-bottom-right #mail.havemail, html[lang^="nm"] #header #header-bottom-right #mail.havemail { outline: 0px none; }
+.res-nightmode .formtabs-content .infobar, html[lang^="nm"] .formtabs-content .infobar { border-color: transparent ! important; }
+.res-nightmode .infobar, html[lang^="nm"] .infobar { border-color: rgb(255, 69, 0) ! important; }
+.res-nightmode span.score, html[lang^="nm"] span.score { color: rgb(136, 136, 136) ! important; }
+.res-nightmode .comment.spam > .child, .res-nightmode .message.spam > .child, .res-nightmode .usertext.grayed .usertext-body, html[lang^="nm"] .comment.spam > .child, html[lang^="nm"] .message.spam > .child, html[lang^="nm"] .usertext.grayed .usertext-body { background-color: transparent; }
+.res-nightmode div.commentarea .infobar, html[lang^="nm"] div.commentarea .infobar { color: rgb(238, 238, 238); border: medium none; }
+.res-nightmode .comment, html[lang^="nm"] .comment { border: 1px solid rgb(67, 71, 79); }
+.res-nightmode a[href*="#icon-day"], html[lang^="nm"] a[href*="#icon-day"] { display: inline-block ! important; }
+.res-nightmode a[href*="#icon-day"]::before, html[lang^="nm"] a[href*="#icon-day"]::before { display: inline-block ! important; height: 20px; width: 20px; content: ""; margin: 0px 7px -4px 0px; background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -85px -294px; }
+.res-nightmode a[href*="#icon-night"], html[lang^="nm"] a[href*="#icon-night"] { display: none; }
+.res-nightmode a[href*="#icon-feedback"]::before, html[lang^="nm"] a[href*="#icon-feedback"]::before { background-position: -47px -149px; }
+.res-nightmode a[href*="#icon-feedback2"]::before, html[lang^="nm"] a[href*="#icon-feedback2"]::before { background-position: -5px -375px; }
+.res-nightmode a[href*="#iconz-tips"]::before, html[lang^="nm"] a[href*="#iconz-tips"]::before { background-position: -234px -47px; }
+.res-nightmode a[href*="#iconz-updates"]::before, html[lang^="nm"] a[href*="#iconz-updates"]::before { background-position: -259px -119px; }
+.res-nightmode a[href*="#iconz-faq"]::before, html[lang^="nm"] a[href*="#iconz-faq"]::before { background-position: -174px -47px; }
+.res-nightmode a[href*="#iconz-install"]::before, html[lang^="nm"] a[href*="#iconz-install"]::before { background-position: -259px -119px; }
+.res-nightmode a[href*="#iconz-wiki"]::before, html[lang^="nm"] a[href*="#iconz-wiki"]::before { background-position: -204px -149px; }
+.res-nightmode #siteTable .thing, .res-nightmode .link.promotedlink, html[lang^="nm"] #siteTable .thing, html[lang^="nm"] .link.promotedlink { background: rgb(32, 32, 32) none repeat scroll 0% 0% ! important; }
+.res-nightmode .organic-listing, html[lang^="nm"] .organic-listing { background: transparent none repeat scroll 0px 0px ! important; }
+.res-nightmode body > .content #siteTable .thing.self .thumbnail, html[lang^="nm"] body > .content #siteTable .thing.self .thumbnail { background-position: -77px -5px; }
+.res-nightmode body > .content #siteTable .thing .thumbnail.default, html[lang^="nm"] body > .content #siteTable .thing .thumbnail.default { background-position: -174px -77px; }
+.res-nightmode div.side span.subscribers span.number::before, html[lang^="nm"] div.side span.subscribers span.number::before { background-position: -162px -5px; }
+.res-nightmode .expando-button.selftext.collapsed, html[lang^="nm"] .expando-button.selftext.collapsed { background-position: -5px -242px; }
+.res-nightmode .expando-button.selftext.collapsed:hover, html[lang^="nm"] .expando-button.selftext.collapsed:hover { background-position: -225px -204px; }
+.res-nightmode .expando-button.selftext.expanded, html[lang^="nm"] .expando-button.selftext.expanded { background-position: -65px -204px; }
+.res-nightmode .expando-button.selftext.expanded:hover, html[lang^="nm"] .expando-button.selftext.expanded:hover { background-position: -105px -204px; }
+.res-nightmode .expando-button.video.collapsed, html[lang^="nm"] .expando-button.video.collapsed { background-position: -85px -242px; }
+.res-nightmode .expando-button.video.collapsed:hover, html[lang^="nm"] .expando-button.video.collapsed:hover { background-position: -45px -242px; }
+.res-nightmode .expando-button.video.expanded, html[lang^="nm"] .expando-button.video.expanded { background-position: -65px -204px; }
+.res-nightmode .expando-button.video.expanded:hover, html[lang^="nm"] .expando-button.video.expanded:hover { background-position: -105px -204px; }
+.res-nightmode .date::after, html[lang^="nm"] .date::after { border-color: transparent rgb(57, 57, 57) transparent transparent ! important; }
+.res-nightmode .date span, html[lang^="nm"] .date span { border-left: 5px solid rgb(57, 57, 57) ! important; color: rgb(221, 221, 221); border-right-color: rgb(57, 57, 57); }
+.res-nightmode .date time, html[lang^="nm"] .date time { border-right: 1px solid rgb(57, 57, 57) ! important; }
+.res-nightmode .link.last-clicked, html[lang^="nm"] .link.last-clicked { background: rgb(57, 57, 57) none repeat scroll 0% 0% ! important; }
+.res-nightmode .comments-page .link, html[lang^="nm"] .comments-page .link { border-left: 3px solid transparent; }
+.res-nightmode .sitetable.nestedlisting > .thing.stickied, html[lang^="nm"] .sitetable.nestedlisting > .thing.stickied { background: rgb(32, 32, 32) none repeat scroll 0% 0% ! important; border-bottom: medium none; }
+.res-nightmode .RES-keyNav-activeElement, .res-nightmode .RES-keyNav-activeElement .md-container, .res-nightmode .res .RES-keyNav-activeElement, .res-nightmode .res .commentarea .RES-keyNav-activeElement .md, .res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background-color: rgb(41, 41, 41) ! important; }
+.res-nightmode .arrow.upmod { background-position: -296px -60px ! important; }
+.res-nightmode .arrow.down { background-position: -321px -60px ! important; }
+.res-nightmode .arrow.up { background-position: -289px -194px ! important; }
+.res-nightmode .arrow.downmod { background-position: -271px -60px ! important; }
+.res-nightmode .side .titlebox > .fancy-toggle-button { background: rgb(34, 34, 34) none repeat scroll 0% 0% ! important; color: rgb(221, 221, 221) ! important; }
+.RESSubscriptionButton, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^="nm"] .RES-keyNav-activeElement .md-container { background-color: transparent ! important; }
+.res #sr-header-area #srDropdownContainer a:hover, .side .md a[href="http://bit.ly/piracywiki"]:hover::after { opacity: 1; }
+.res .comment .midcol { margin-left: 20px; }
+.res .comment .new-comment { border: 2px solid rgb(255, 171, 145) ! important; border-radius: 0px ! important; }
+.res #sr-header-area #srDropdownContainer a { width: 35px; height: 23px; padding: 0px; margin: 0px; display: block; background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -225px -252px; line-height: 35px; text-indent: -999em; }
+.res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .noncollapsed .RES-keyNav-activeElement.entry {  }
+.res .RESDashboardToggle, .res .RESshortcutside { background: transparent none repeat scroll 0px 0px; border: medium none; font-weight: 400; text-transform: uppercase; color: rgb(34, 34, 34); }
+.res .sitetable .sitetable { margin-right: 0px; }
+.RESSubscriptionButton { color: rgb(255, 255, 255) ! important; border-radius: 1px ! important; border: medium none ! important; }
+#RESAnnouncementAlert, #userbarToggle, .multi-count, .res .message-count, .res .side .userTagLink, .res .sidebox.create, .sidecontentbox .content .RESUserTagImage::after { display: none ! important; }
+#RESSettingsButton { right: 20px; top: 3px; }
+#RESStaticShortcuts { line-height: 25px; }
+.footer, .footer::after { border-bottom: 1px solid rgb(59, 76, 98); }
+.footer { border-left: 1px solid rgb(59, 76, 98); padding: 0px; }
+.footer div.col, .footer::after { font-family: "Segoe UI",Helvetica,sans-serif; }
+.footer::after { display: block; margin-top: 0px; padding-top: 8px ! important; color: rgb(0, 0, 0); content: "Designed by /u/Jaskys"; font-size: 16px; border-top: 34px solid rgb(59, 76, 98); border-right: 1px solid rgb(59, 76, 98); margin-bottom: -1.1px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; width: 90px; }
+.footer div.col { position: relative; margin: 0px; padding: 0px; width: 176px; height: auto; }
+.footer div.col .title { font-size: 16px; text-transform: capitalize; padding: 8px; color: rgb(255, 255, 255); background: rgb(59, 76, 98) none repeat scroll 0% 0%; max-height: 18px; }
+.footer div.col a { display: block; margin: 5px; padding: 3px 4px 3px 7px; color: rgb(0, 0, 0); }
+.footer div.col a:hover { color: rgb(0, 0, 0); text-decoration: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.footer p.bottommenu { clear: left; padding: 6px; }
+.footer p.bottommenu, .footer p.bottommenu a { font-weight: 700; color: rgb(255, 255, 255); }
+.footer .col { border-left: medium none ! important; }
+.debuginfo { background: rgb(246, 246, 246) none repeat scroll 0% 0%; }
+.rounded { border-radius: 0px; }
+.flat-vert { text-align: center; }
+.titlebox h1.redditname a { font-size: 0px; }
+.titlebox h1.redditname a::after { content: "r/Piracy"; color: rgb(255, 255, 255); font: 400 small verdana,arial,helvetica,sans-serif; }
+#header .redditname a { font-size: 0px; background: transparent url("R5FWzpQs1wL_fieEjcZeKqk4m7Q1TRsyXZLQqgwW6UI.png") no-repeat scroll -5px -5px; margin-left: 10px; height: 100px; display: block; position: absolute; top: 30px; }
+#header .redditname a:hover { background: transparent url("R5FWzpQs1wL_fieEjcZeKqk4m7Q1TRsyXZLQqgwW6UI.png") no-repeat scroll -5px -115px ! important; text-decoration: none; }
+#header .redditname a::after { content: "r/Piracy"; font-size: 70px; font-weight: lighter; color: rgb(236, 240, 241); font-family: "Segoe UI Light",Helvetica,sans-serif; letter-spacing: 0.05em; margin-left: 100px; line-height: 100px; font-variant: normal; transition: background-color 0.5s ease 0s; }
+.flair-wiki { color: rgb(230, 126, 34); font-weight: 700; }
+.flair-wiki { height: 16px; line-height: 16px; border: medium none; background: transparent none repeat scroll 0px 0px; padding: 0px; }
+.flair-wiki::before { content: "- "; }
+.flairselector { background-color: rgb(255, 255, 255); }
+.linkflair-discussion .linkflairlabel, .side a[href*="#square-discussion"]::before { background: rgb(255, 158, 0) none repeat scroll 0% 0%; }
+.linkflair-tip .linkflairlabel, .side a[href*="#square-tip"]::before { background: rgb(70, 137, 102) none repeat scroll 0% 0%; }
+.linkflair-news .linkflairlabel, .side a[href*="#square-news"]::before { background: rgb(242, 56, 90) none repeat scroll 0% 0%; }
+.linkflair-official .linkflairlabel, .side a[href*="#square-official"]::before { background: rgb(32, 134, 191) none repeat scroll 0% 0%; }
+.linkflair-help .linkflairlabel, .side a[href*="#square-help"]::before { background: rgb(255, 97, 56) none repeat scroll 0% 0%; }
+.linkflair-solved .linkflairlabel, .side a[href*="#square-solved"]::before { background: rgb(0, 138, 0) none repeat scroll 0% 0%; }
+.linkflair-bug .linkflairlabel, .side a[href*="#square-bug"]::before { background: rgb(206, 53, 44) none repeat scroll 0% 0%; }
+.linkflair-update .linkflairlabel, .side a[href*="#square-update"]::before { background: rgb(59, 76, 98) none repeat scroll 0% 0%; }
+.linkflair-feature .linkflairlabel, .side a[href*="#square-feature"]::before { background: rgb(0, 171, 169) none repeat scroll 0% 0%; }
+.linkflair-meta .linkflairlabel, .side a[href*="#square-meta"]::before { background: rgb(67, 144, 223) none repeat scroll 0% 0%; }
+.linkflair-app .linkflairlabel, .side a[href*="#square-app"]::before { background: rgb(191, 90, 21) none repeat scroll 0% 0%; }
+.linkflair-concept .linkflairlabel, .side a[href*="#square-concept"]::before { background: rgb(20, 182, 245) none repeat scroll 0% 0%; }
+.linkflair-request .linkflairlabel, .side a[href*="#square-request"]::before { background: rgb(0, 171, 169) none repeat scroll 0% 0%; }
+.linkflair-hflairs .linkflairlabel, .linkflair-hhelp .linkflairlabel, .side a[href*="#square-hflairs"]::before, .side a[href*="#square-hhelp"]::before { background: rgb(228, 38, 8) none repeat scroll 0% 0%; }
+.linkflair-gaming .linkflairlabel, .side a[href*="#square-gaming"]::before { background: rgb(16, 124, 16) none repeat scroll 0% 0%; }
+.linkflair-development .linkflairlabel, .side a[href*="#square-development"]::before { background: rgb(59, 76, 98) none repeat scroll 0% 0%; }
+.linkflair-insider-bug .linkflairlabel, .side a[href*="#square-insider-bug"]::before { background: rgb(206, 53, 44) none repeat scroll 0% 0%; }
+a[href*="#square-"]:hover::before { text-decoration: none; background: rgb(37, 158, 255) none repeat scroll 0% 0%; border-color: rgb(128, 194, 255); left: 4px; top: 8px; transition: all 0.15s ease 0s; }
+a[href*="#square-"]::before { display: inline-block; height: 10px; width: 10px; content: ""; margin: 0px 5px -4px 0px; border: 3px solid rgb(232, 232, 232); }
+.linkflairlabel { margin: 0px 4px -4px 0px; padding: 3px 7px; color: rgb(255, 255, 255); font-weight: 400; font-size: 10px; font-family: "Segoe UI",Helvetica,sans-serif; pointer-events: none; border-radius: 0px; border: 0px none; }
+.linkflairlabel:lang(nf) { display: none; }
+html:lang(nh) .linkflair-bug, html:lang(nh) .linkflair-help { display: none ! important; }
+.listing-page .linkflair-discussion { border-left: 3px solid rgb(255, 158, 0); background: rgba(255, 158, 0, 0.1) none repeat scroll 0% 0%; }
+.listing-page .linkflair-tip { border-left: 3px solid rgb(70, 137, 102); background: rgba(70, 137, 102, 0.1) none repeat scroll 0% 0%; }
+.listing-page .linkflair-news { border-left: 3px solid rgb(242, 56, 90); background: rgba(242, 56, 90, 0.1) none repeat scroll 0% 0%; }
+.listing-page .linkflair-official { border-left: 3px solid rgb(32, 134, 191); background: rgba(32, 134, 191, 0.1) none repeat scroll 0% 0%; }
+.listing-page .linkflair-update { border-left: 3px solid rgb(59, 76, 98); background: rgba(0, 120, 215, 0.1) none repeat scroll 0% 0%; }
+.res-nightmode .side .md blockquote, html[lang^="nm"] .side .md blockquote { border-left: 5px solid rgb(59, 129, 251) ! important; color: rgb(221, 221, 221) ! important; }
+.comments-page .link.linkflair-solved { display: block; }
+.side .md blockquote { padding: 2px 10px 5px; border-left: 5px solid rgb(245, 198, 132); background-color: rgb(254, 248, 241); border-bottom: 1px solid rgb(230, 237, 246); border-right: 1px solid rgb(230, 237, 246); font-size: 10px; margin: 0px 5px 0px 0px; color: rgb(34, 34, 34); }
+.side .md blockquote:hover { background-color: rgb(252, 236, 217); border-left-color: rgb(240, 173, 78); }
+.side .md blockquote a { font-size: 11px; }
+a[href*="#btn"]:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+a[href*="#Donsiders"] { background: rgb(0, 158, 126) none repeat scroll 0% 0%; }
+a[href*="#Donsiders"]:hover { background: rgb(37, 158, 255) none repeat scroll 0% 0%; }
+a[href*="#btn"] { background: rgb(0, 87, 166) none repeat scroll 0% 0%; }
+a[href*="#square-showflairs"] { float: right; }
+a[href*="#square-showflairs"]::before { display: inline-block; height: 10px; width: 10px; content: ""; background: rgb(59, 76, 98) none repeat scroll -187px -5px; border: 3px solid rgb(232, 232, 232); border-radius: 50%; margin-left: 5px; }
+a[href*="#square-hflairs"]::after { content: "or"; margin-left: 50px; }
+a[href*="#square-hflairs"]:hover::after { color: rgb(59, 76, 98); }
+.side .md [href$="#butt"] { display: inline-block ! important; font-size: 8pt; border: 2px solid rgb(59, 76, 98); padding: 9px 8px; transition: background-color 0.5s ease 0s; text-align: center; color: rgb(59, 76, 98); }
+.side .md [href$="#butt"]:hover { background: rgb(59, 76, 98) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.side .md > p:first-of-type { display: none; }
+.comments-page .link.linkflair-bug .flat-list a.flairselectbtn::after, .comments-page .link.linkflair-help .flat-list a.flairselectbtn::after { content: "- flair your thread as solved once your problem is resolved"; margin-left: 6px; color: rgb(0, 138, 0); }
+.comments-page .link.linkflair-help .flat-list a.flairselectbtn { color: rgb(59, 76, 98) ! important; }
+.link a.thumbnail[href*="blogs.windows.com"] img, .linkflair-solved.link, .subscribers .word, a[href*="#iconz"] + .keyNavAnnotation { display: none; }
+.search-page .linkflair-solved.link { display: block; }
+a[href*="#icon-chat"]::before, a[href*="#icon-feedback"]::before, a[href*="#icon-feedback2"]::before, a[href*="#icon-night"]::before { display: inline-block; height: 20px; width: 20px; content: ""; margin: 0px 7px -4px 0px; }
+a[href*="#icon"]:hover, a[href*="#iconz"]:hover { text-decoration: none; }
+a[href*="#icon-chat"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -5px -204px; }
+a[href*="#icon-feedback"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -35px -204px; }
+a[href*="#icon-night"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -125px -242px; }
+a[href*="#icon-feedback2"]::before { background: transparent url("R5FWzpQs1wL_fieEjcZeKqk4m7Q1TRsyXZLQqgwW6UI.png") repeat scroll -5px -345px; }
+a[href*="#icon-more"] { text-align: center; display: block; color: rgb(37, 158, 255); font-size: 16px; }
+a[href*="#iconz-faq"]::before, a[href*="#iconz-install"]::before, a[href*="#iconz-tips"]::before, a[href*="#iconz-updates"]::before, a[href*="#iconz-wiki"]::before { display: inline-block; height: 20px; width: 20px; content: ""; margin: 0px 7px -4px 0px; }
+a[href*="#iconz-tips"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -204px -47px; }
+a[href*="#iconz-faq"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -47px -47px; }
+a[href*="#iconz-updates"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -102px -77px; }
+a[href*="#iconz-install"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -229px -119px; }
+a[href*="#iconz-wiki"]::before { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") repeat scroll -174px -149px; }
+.link a.thumbnail[href*="blogs.windows.com"] { background: transparent url("w5sQvqwK77B5FNn9qBojfNFtaZPfL2_enCwbPAhgd-g.png") no-repeat scroll -234px -149px ! important; width: 45px; height: 45px; margin: 10px; }
+.res-nightmode .subscribers .number::after, .subscribers .number::after { content: " leechers"; }
+.arrow.down { pointer-events: none; }
+.subscriber .arrow.down { pointer-events: initial; }
+#baconBit { width: 394px ! important; height: 304px ! important; transition: all 10s linear 0s ! important; }
+.res-nightmode a[href*="#icon-chat"]::before, html[lang^="nm"] a[href*="#icon-chat"]::before { background-image: url("R5FWzpQs1wL_fieEjcZeKqk4m7Q1TRsyXZLQqgwW6UI.png"); background-position: -5px -405px; }
+.submit-page .side::before { content: "Use search before posting"; font-size: large; color: rgb(82, 157, 255); margin-left: 27px; top: 2px; position: relative; }
+.side .md a[href="http://bit.ly/piracywiki"] { z-index: 1; text-indent: -9999px; background-image: url("4gLjKjhLPorCoA7XNLpve1dOqLCX9tSGBqk7-f5CI08.png"); background-position: -5px -5px; position: relative; height: 70px; width: 295px; display: block; margin: 10px 0px; border-radius: 3px; }
+.side .md a[href="http://bit.ly/piracywiki"]::after { content: ""; background-image: url("4gLjKjhLPorCoA7XNLpve1dOqLCX9tSGBqk7-f5CI08.png"); background-position: -5px -105px; transition: opacity 0.3s ease-out 0s; opacity: 0; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.flairtoggle, .titlebox .tagline { display: none; }
+.flairselectbtn { border: 1px solid rgb(204, 204, 204); padding: 0.1em 0.8em ! important; border-radius: 2px; }
+.flairselectbtn:hover, .flairselectbtn:focus { text-decoration: none ! important; border-color: rgb(37, 109, 182) ! important; color: rgb(37, 109, 182) ! important; }
+.flairoptionpane { margin-bottom: -0.4em; overflow: visible; }
+.flairselector { box-shadow: 4px 4px 0px rgb(238, 238, 238); width: auto ! important; }
+.flairselector.drop-choices.active { border: 1px solid rgb(221, 221, 221); }
+.flairselector h2, .flairselector .flairselection, .flairselector .status, .flairselector li a { display: none ! important; }
+.flairselector ul { display: block; max-width: inherit; overflow: visible; }
+.flairselector li { text-align: center ! important; position: relative; padding-top: 4px; padding-right: 0px; padding-bottom: 4px; padding-left: 4px ! important; background: rgb(246, 246, 246) none repeat scroll 0% 0%; margin-bottom: 0.2em; font-size: 1.8em; width: 130px ! important; }
+.flairselector li:hover { background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+.flairselector li.selected::after { content: "✓"; background: rgb(68, 68, 68) none repeat scroll 0% 0%; position: absolute; top: 50%; right: 0.2em; width: 24px; height: 24px; font-size: 12px; line-height: 24px; color: rgb(255, 255, 255); border-radius: 50%; margin-top: -12px; }
+.flairselector form { border-top: medium none; }
+.flairselector button { width: 100%; display: block; }
+.flairselector form button { margin-left: 0px; }
+.link .linkflairlabel { color: rgb(102, 102, 102); font-size: 13px; line-height: 1em; vertical-align: top; text-align: center; padding: 3px 5px; margin-top: 1px; border-radius: 0px; border: 0px none; min-width: 58px; max-width: 300px; }
+.linkflairlabel[title="MOD POST"], .linkflairlabel[title="OFFICIAL"], .linkflairlabel[title="ANNOUNCEMENT"], .linkflairlabel[title="WEEKLY THREAD"], .linkflairlabel[title="MEGATHREAD"], .linkflairlabel[title="SUGGESTIONS"], .linkflairlabel[title="BEST OF 2017"], .linkflairlabel[title="SPOTIFY"] { background-color: rgb(0, 166, 79) ! important; color: rgb(255, 255, 255) ! important; }
+.linkflairlabel[title="AMA"] { background-color: rgb(242, 135, 135) ! important; color: rgb(255, 255, 255) ! important; }
+.linkflairlabel[title="PSA"] { background-color: rgb(248, 165, 165); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="News"] { background-color: rgb(239, 224, 150); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Meta"] { background-color: rgb(141, 218, 138); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Question"] { background-color: rgb(113, 169, 247); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Discussion"] { background-color: rgb(201, 181, 240); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Release"] { background-color: rgb(255, 172, 236); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Humor"] { background-color: rgb(242, 206, 163); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Guide"] { background-color: rgb(164, 223, 208); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="Screener Release"] { background-color: rgb(223, 192, 70); color: rgb(0, 0, 0) ! important; }
+.linkflairlabel[title="SCREENERS MEGATHREAD"] { background-color: rgb(223, 192, 70); color: rgb(0, 0, 0) ! important; }
+div.side p.users-online { padding: 10px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 236, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 8pt; border-radius: 0px; font-weight: 400; margin: 0px 5px 0px 0px; }
+div.side span.subscribers { border-bottom: medium none; }
+.res-nightmode .subscribers .number::after, .subscribers .number::after { content: " leechers"; }
+.users-online .number::after { content: " seeders"; }
+.leavemoderator, .subscribers .word, .users-online .word { display: none; }
+.pagename { visibility: hidden; }
+.pagename a { visibility: visible; }
+#siteTable div.thing a.title:visited { color: rgb(168, 73, 255); }
+#siteTable div.thing a.title { color: rgb(0, 121, 211); }
+#siteTable div.thing a.title:hover { color: rgb(168, 73, 255); }
+.comment .md a { color: rgb(0, 121, 211); }
+.comment .md a:visited { color: rgb(85, 26, 139); }
+.comment .md a:hover { color: rgb(168, 73, 255); }
+.md a { color: rgb(0, 121, 211); }
+.last-clicked { color: white; background-color: white; }

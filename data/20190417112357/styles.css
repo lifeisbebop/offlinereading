@@ -1,0 +1,53 @@
+/* Code tidied up by ScrapBook */
+p { font-size: 10pt; }
+body, div, p, td, th, ul, ol, li { margin: 0px; padding: 0px; }
+body { background-color: rgb(255, 255, 255); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+img { border: medium none; }
+a { color: rgb(0, 102, 153); }
+.clearfix { width: 100%; clear: both; }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.view-navbar { text-align: center; font-size: 17px; }
+.view-navbar a { text-decoration: underline; }
+.view-navbar > li { list-style: outside none none; display: inline-block; padding: 0px 20px; }
+#positionHome { padding: 0px; margin: 55px auto 30px; width: 450px; background-color: rgb(255, 255, 255); overflow: visible; }
+#logoHome { text-align: center; height: 120px; }
+#logoHome h1 { width: 204px; height: 72px; margin: 0px auto; background-image: url("logo_WM.png"); position: relative; }
+#logoHome span { position: absolute; left: -10000px; }
+#searchHome { text-align: center; margin-bottom: 110px; width: 450px; position: relative; }
+#searchHome input[type="text"] { font-family: "Arial","Helvetica",sans-serif; font-size: 1.125em; font-weight: 700; width: 440px; }
+#searchHome button { font-family: "Lucida Sans","Lucida Grande","Arial",sans-serif; font-size: 1em; display: block; margin: 5px auto; }
+#searchAdvHome { position: absolute; left: 460px; top: 8px; font-size: 0.75em; white-space: nowrap; }
+#introHome { margin-bottom: 15px; }
+#introHome h2 { font-family: "Arial","Helvetica",sans-serif; font-size: 1.5em; margin: 0px; padding: 0px; line-height: normal; color: rgb(0, 174, 240); }
+#introHome p { font-size: 1.25em; line-height: 1.5em; }
+#introHome a.faq { font-size: 0.875em; display: block; text-align: right; line-height: 1.5em; }
+#footerHome { max-width: 413px; text-align: left; margin: 45px auto 0px; padding-left: 37px; background: transparent url("logo_archive-sm.png") no-repeat scroll 0px 0px; }
+#footerHome p { font-family: "georgia","times new roman",serif; font-size: 0.6875em; color: rgb(102, 102, 102); line-height: 1.5em; margin-bottom: 2em; }
+.no-script-message { width: 400px; margin: 200px auto; text-align: center; }
+body.wb_embedded { display: none ! important; }
+#error { min-height: 230px; }
+#error h2 { font-size: 1.5em; margin: 0px 0px 20px; padding: 0px; line-height: normal; color: rgb(238, 28, 36); }
+#error h2.blue { color: rgb(0, 174, 240) ! important; }
+#error p { font-size: 1em; line-height: 1.5em; }
+#error p.target { white-space: pre-line; word-break: break-all; overflow-wrap: break-word; }
+#errorBorder { border-bottom: 1px solid rgb(204, 204, 204); width: 780px; margin: 0px auto; }
+#error p.code { font-family: "Andale Mono","Lucida Console","Courier New",monospace; margin: 0px 0px 1.5em; }
+#error p.shift { padding-left: 35px; }
+#error .red { color: rgb(238, 28, 36); }
+#error p.impatient { font-family: "Georgia","Times New Roman",serif; font-size: 0.75em; margin: 0px 0px 1.5em 450px; white-space: nowrap; }
+#livewebInfo { padding: 20px; margin: 20px 0px; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(170, 170, 170); }
+#livewebInfo.available { background: rgb(255, 255, 224) none repeat scroll 0% 0%; }
+.web_button { min-width: 153px; height: 35px; background-color: rgb(235, 235, 235); border: medium none; border-radius: 5px; font-size: 14px; font-weight: 300; padding-bottom: 2px; }
+.web_button:hover { background-color: rgb(205, 205, 205); }
+.feedback_button { float: right; font-weight: bold; margin: 102px -50px 0px 0px; transform: rotate(270deg); }
+.social_button { border: medium none ! important; display: block; margin: 1px 0px ! important; padding: 0px ! important; }
+.social_button:hover, .social_button:focus { border: medium none ! important; text-decoration: none ! important; }
+h2#query-summary { color: rgb(1, 166, 81); text-align: center; visibility: hidden; opacity: 0; transition: opacity 700ms ease 0s; }
+table#resultsUrl { border-collapse: collapse; }
+table#resultsUrl td { text-align: center; font-size: 0.8125em; border-bottom: 1px solid rgb(204, 204, 204); padding: 5px; white-space: pre; }
+table#resultsUrl td.captures, table#resultsUrl td.dupes, table#resultsUrl td.uniques { font-family: "Andale Mono","Lucida Console","Courier New",monospace; text-align: right; padding-right: 20px; }
+table#resultsUrl td.url { text-align: left; font-size: 1.125em; font-family: "Arial","Lucida Grande",sans-serif; width: 40%; overflow: hidden; white-space: pre-line; word-break: break-all; overflow-wrap: break-word; }
+table#resultsUrl th { text-align: center; font-size: 0.8125em; font-family: "Arial","Lucida Grande",sans-serif; text-transform: uppercase; color: rgb(0, 102, 153); cursor: pointer; border-bottom: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); padding: 5px 9px 5px 5px; }
+.dataTables_info { color: rgb(102, 102, 102) ! important; }
+#spn-title { overflow-wrap: break-word; }
+#donate_banner.row { display: none; }

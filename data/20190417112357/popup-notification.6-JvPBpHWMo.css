@@ -1,0 +1,6 @@
+/* Code tidied up by ScrapBook */
+.popup-overlay { position: fixed; bottom: 0px; background: rgb(252, 252, 251) none repeat scroll 0% 0%; border: 1px solid gray; padding: 5px 5px 0px; width: 50%; left: 50%; transform: translate(-50%, 0px); font-family: Helvetica,"Helvetica Neue",Arial,sans-serif; display: none; z-index: 2147483647; }
+.popup-overlay-snoo { background-repeat: no-repeat; background-image: url("survey_snoo.png"); width: 50px; height: 52px; float: left; }
+.popup-title { overflow: hidden; border-bottom: 2px solid rgb(165, 164, 164); margin: 0px 20px; text-align: center; }
+.popup-title-text { margin-top: 13px; color: rgb(17, 17, 17); font-size: 21px; }
+.popup-dismiss-btn { float: right; height: 18px; width: 18px; background-repeat: no-repeat; background-image: url("close_x.png"); }

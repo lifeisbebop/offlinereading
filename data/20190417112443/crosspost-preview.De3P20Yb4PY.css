@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+.crosspost-preview { overflow: hidden; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(198, 198, 198); border-radius: 4px; max-width: 600px; }
+.crosspost-preview.video { padding: 0px; }
+.crosspost-preview.video .crosspost-preview-content { background-color: rgb(239, 239, 237); text-align: center; }
+.crosspost-preview .title { color: rgb(34, 34, 34); font-size: 14px; margin-right: 0px; }
+.crosspost-preview .media-preview { margin: 0px auto; }
+.crosspost-preview .media-preview img { display: block; }
+.crosspost-preview .media-preview img.censored-preview { display: none; }
+.crosspost-preview .text-content { overflow: auto; }
+.crosspost-preview .thumbnail { position: relative; }
+.expando--with-interstitial .crosspost-preview .media-preview img.preview, .expando--with-interstitial .crosspost-preview .media-preview video.preview { display: none; }
+.expando--with-interstitial .crosspost-preview .media-preview img.censored-preview, .expando--with-interstitial .crosspost-preview .media-preview video.censored-preview { display: block; }
+.crosspost-preview-header { overflow: auto; padding: 8px; position: relative; }
+.crosspost-preview-header > .content-link { position: absolute; bottom: 0px; left: 0px; right: 0px; top: 0px; }
+.crosspost-comments-preview-header .thumbnail { margin-right: 8px; }
+.crosspost-comments-preview-header .thumbnail.nsfw { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -402px; background-repeat: no-repeat; }
+.crosspost-comments-preview-header .thumbnail.spoiler { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -438px; background-repeat: no-repeat; }
+.crosspost-comments-preview-header .thumbnail.self { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -474px; background-repeat: no-repeat; }
+.crosspost-comments-preview-header .thumbnail.image { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -330px; background-repeat: no-repeat; }
+.crosspost-comments-preview-header .thumbnail.default { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -366px; background-repeat: no-repeat; }
+.crosspost-comments-preview-header .thumbnail.account { width: 30px; height: 30px; background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -438px; background-repeat: no-repeat; }
+@media only screen and (min-resolution: 2dppx), not all {
+  .crosspost-comments-preview-header .thumbnail { background-size: 100% auto; }
+  .crosspost-comments-preview-header .thumbnail.nsfw { background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -66px; background-repeat: no-repeat; background-size: 30px 255px; }
+  .crosspost-comments-preview-header .thumbnail.spoiler { background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -99px; background-repeat: no-repeat; background-size: 30px 255px; }
+  .crosspost-comments-preview-header .thumbnail.self { background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -132px; background-repeat: no-repeat; background-size: 30px 255px; }
+  .crosspost-comments-preview-header .thumbnail.image { background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px 0px; background-repeat: no-repeat; background-size: 30px 255px; }
+  .crosspost-comments-preview-header .thumbnail.default { background-image: url("sprite-crosspost-preview.dtlmtLhouGQ.png"); background-position: 0px -33px; background-repeat: no-repeat; background-size: 30px 255px; }
+}
+.link .crosspost-preview-content .usertext-body .md { max-width: none; margin: 0px; padding: 8px; background: transparent none repeat scroll 0% 0%; border: 0px none; font-size: 12px; }
+.link .crosspost-preview-content .self-divider { border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(198, 198, 198) currentcolor currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; height: 0px; margin: 0px 8px; }
+.crosspost-preview-tagline { color: rgb(165, 164, 164); display: inline-block; margin-top: 3px; position: relative; }
+.crosspost-preview-tagline a:hover { text-decoration: underline; }
+.crosspost-preview-tagline .score { color: rgb(165, 164, 164); }
+.crosspost-preview-tagline .comments { color: rgb(165, 164, 164); }
+.crosspost-preview-tagline .dot { color: rgb(204, 204, 202); margin: 0px 3px; }
+.crosspost-preview-comments { padding: 0px 10px 10px; }
+.crosspost-preview-comments .child { margin-left: 10px; margin-top: 10px; padding-left: 18px; border-left: 2px dotted rgb(241, 241, 241); }
+.crosspost-comment { margin: 10px 0px 0px; padding-bottom: 0px; }
+.crosspost-comment:first-child { margin-top: 0px; }
+.crosspost-comment.collapsed { padding-bottom: 0px; }
+.crosspost-comment .md { font-size: 12px; }
+.crosspost-comment p { margin-bottom: 0px; }
+.crosspost-comment .entry { margin-left: 0px; }
+.crosspost-comment .usertext-body .md { background: transparent none repeat scroll 0% 0%; border: 0px none; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
+.crosspost-comment .author { font-weight: normal; }
+.crosspost-comment .crosspost-preview-tagline { margin-top: 0px; margin-bottom: 6px; }
+.crosspost-preview-comment-parent { color: rgb(165, 164, 164); }
+.crosspost-preview-comment-parent a { color: rgb(165, 164, 164); }
+.crosspost-preview-comment-parent .md { color: rgb(165, 164, 164); }
+.crosspost-preview-comments-more { display: inline-block; vertical-align: top; margin-top: 10px; }
+.crosspost-preview-comments-more:hover { text-decoration: underline; }

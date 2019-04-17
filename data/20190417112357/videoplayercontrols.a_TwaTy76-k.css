@@ -1,0 +1,98 @@
+/* Code tidied up by ScrapBook */
+.reddit-video-controller-root button, .reddit-video-controller-root label { outline: medium none; padding: 0px; border: 0px solid; background: transparent none repeat scroll 0% 0%; width: 18px; height: 18px; margin: 3px 8px; }
+.reddit-video-controller-root button.fullscreen[data-action="fullscreenRequest"] img.collapse, .reddit-video-controller-root label.fullscreen[data-action="fullscreenRequest"] img.collapse, .reddit-video-controller-root button.fullscreen[data-action="fullscreenCancel"] img.expand, .reddit-video-controller-root label.fullscreen[data-action="fullscreenCancel"] img.expand, .reddit-video-controller-root button.volume[data-action="mute"] img.unmute, .reddit-video-controller-root label.volume[data-action="mute"] img.unmute, .reddit-video-controller-root button.volume[data-action="unmute"] img.mute, .reddit-video-controller-root label.volume[data-action="unmute"] img.mute, .reddit-video-controller-root button.settings > input[type="checkbox"]:checked ~ img.settings-open, .reddit-video-controller-root label.settings > input[type="checkbox"]:checked ~ img.settings-open, .reddit-video-controller-root button.settings > input[type="checkbox"]:not(:checked) ~ img.settings-close, .reddit-video-controller-root label.settings > input[type="checkbox"]:not(:checked) ~ img.settings-close { display: none; }
+.reddit-video-controller-root button img, .reddit-video-controller-root label img, .reddit-video-controller-root button svg, .reddit-video-controller-root label svg { width: auto; height: 100%; }
+.reddit-video-controller-root button svg.play-pause, .reddit-video-controller-root label svg.play-pause { fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 3px; display: block; }
+.reddit-video-controller-root.playback-controls { display: flex; background: transparent linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0% 0%; align-items: flex-end; padding: 12px 16px; width: 100%; }
+.reddit-video-controller-root.playback-controls * { position: relative; }
+.reddit-video-controller-root.playback-controls .control-button { opacity: 0.95; }
+.reddit-video-controller-root.playback-controls .control-button:hover, .reddit-video-controller-root.playback-controls .control-button:active { opacity: 1; }
+.reddit-video-controller-root.playback-controls a.permalink { margin: 0px 4px; padding: 4px; border: 0px none; width: 16px; height: 16px; }
+.reddit-video-controller-root.playback-controls a.permalink:hover { background: rgb(253, 71, 30) none repeat scroll 0% 0%; border-radius: 12px; }
+.reddit-video-controller-root.playback-controls a.permalink img { height: 16px; width: 16px; }
+.reddit-video-controller-root.playback-controls .time-label { width: 48px; height: 16px; margin: 4px 8px; font-family: Helvetica; font-size: 12px; text-align: center; line-height: 16px; color: rgb(255, 255, 255); }
+.reddit-video-controller-root.playback-controls .reddit-video-seek-bar-root .seek-bar-thumb { opacity: 0; transition: opacity 0.1s linear 0s; }
+.reddit-video-controller-root.playback-controls .reddit-video-seek-bar-root:hover .seek-bar-thumb, .reddit-video-controller-root.playback-controls .reddit-video-seek-bar-root:active .seek-bar-thumb { opacity: 1; }
+.reddit-video-controller-root.playback-controls .volume-container .reddit-video-volume-slider-root { display: table; opacity: 0; margin: auto; height: 0px; transition: opacity 0.3s linear 0s; }
+.reddit-video-controller-root.playback-controls .volume-container:hover .reddit-video-volume-slider-root, .reddit-video-controller-root.playback-controls .volume-container:active .reddit-video-volume-slider-root { height: auto; opacity: 1; }
+.reddit-video-controller-root.playback-controls .volume-container:not(:hover):not(:active) .reddit-video-volume-slider-root { display: none; }
+.reddit-video-controller-root.playback-controls .has-submenu { position: relative; display: inline-block; }
+.reddit-video-controller-root.playback-controls .has-submenu .submenu { visibility: hidden; left: 50%; transform: translateX(-50%); bottom: 30px; position: absolute; z-index: 1; }
+.reddit-video-controller-root.playback-controls label.has-submenu { cursor: pointer; }
+.reddit-video-controller-root.playback-controls label.has-submenu input[type="checkbox"] { display: none; }
+.reddit-video-controller-root.playback-controls label.has-submenu input[type="checkbox"]:checked ~ .submenu { color: white; visibility: visible; }
+.reddit-video-controller-root.ended-controls button, .reddit-video-controller-root.interstitial-controls button { width: 64px; height: 64px; }
+.reddit-video-controller-root.ended-controls button svg, .reddit-video-controller-root.interstitial-controls button svg, .reddit-video-controller-root.ended-controls button img, .reddit-video-controller-root.interstitial-controls button img { width: 35px; }
+.reddit-video-controller-root.interstitial-controls button svg, .reddit-video-controller-root.interstitial-controls button img { position: relative; left: 4px; }
+.reddit-video-controller-root.pinned-controls button { width: 48px; height: 48px; }
+.reddit-video-controller-root.pinned-controls button svg, .reddit-video-controller-root.pinned-controls button img { width: 24px; }
+.reddit-video-controller-root.upload-controls .centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; }
+.reddit-video-controller-root.upload-controls .centered button { width: 64px; height: 64px; padding: 0px; background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%; margin: auto; border-radius: 50%; border-width: 0px ! important; outline: medium none; color: white; }
+.reddit-video-controller-root.upload-controls .centered button svg { width: 35px; padding: 0px; margin: auto; }
+.reddit-video-controller-root.buffering-controls * { box-sizing: border-box; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator { display: inline-block; position: relative; width: 64px; height: 64px; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator.active { animation: 1568ms linear 0s normal none infinite running container-rotate; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator.active .spinner-layer { opacity: 1; animation: 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s normal both infinite running fill-unfill-rotate; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator.active .circle-clipper.left .circle { animation: 1333ms cubic-bezier(0.4, 0, 0.2, 1) 0s normal both infinite running left-spin; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator.active .circle-clipper.right .circle { animation: 1333ms cubic-bezier(0.4, 0, 0.2, 1) 0s normal both infinite running right-spin; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .spinner-layer { position: absolute; width: 100%; height: 100%; opacity: 0; border-color: rgb(0, 121, 211); }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .gap-patch { position: absolute; top: 0px; left: 45%; width: 10%; height: 100%; overflow: hidden; border-color: inherit; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .gap-patch .circle { width: 1000%; left: -450%; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .circle-clipper { display: inline-block; position: relative; width: 50%; height: 100%; overflow: hidden; border-color: inherit; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .circle-clipper .circle { width: 200%; height: 100%; border-width: 4px; border-style: solid; border-top-color: inherit; border-right-color: inherit; border-left-color: inherit; border-bottom-color: transparent ! important; border-radius: 50%; animation: 0s ease 0s normal none 1 running none; position: absolute; top: 0px; right: 0px; bottom: 0px; }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .circle-clipper.left .circle { left: 0px; border-right-color: transparent ! important; transform: rotate(129deg); }
+.reddit-video-controller-root.buffering-controls .buffering-indicator .circle-clipper.right .circle { left: -100%; border-left-color: transparent ! important; transform: rotate(-129deg); }
+.reddit-video-controller-root.ended-controls, .reddit-video-controller-root.pinned-controls, .reddit-video-controller-root.buffering-controls, .reddit-video-controller-root.interstitial-controls { width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%; }
+.reddit-video-controller-root.ended-controls .vertical > *, .reddit-video-controller-root.pinned-controls .vertical > *, .reddit-video-controller-root.buffering-controls .vertical > *, .reddit-video-controller-root.interstitial-controls .vertical > * { display: block; }
+.reddit-video-controller-root.ended-controls .horizontal, .reddit-video-controller-root.pinned-controls .horizontal, .reddit-video-controller-root.buffering-controls .horizontal, .reddit-video-controller-root.interstitial-controls .horizontal { text-align: center; }
+.reddit-video-controller-root.ended-controls .horizontal > *, .reddit-video-controller-root.pinned-controls .horizontal > *, .reddit-video-controller-root.buffering-controls .horizontal > *, .reddit-video-controller-root.interstitial-controls .horizontal > * { display: inline-block; }
+.reddit-video-controller-root.ended-controls .centered, .reddit-video-controller-root.pinned-controls .centered, .reddit-video-controller-root.buffering-controls .centered, .reddit-video-controller-root.interstitial-controls .centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; }
+.reddit-video-controller-root.ended-controls .centered button, .reddit-video-controller-root.pinned-controls .centered button, .reddit-video-controller-root.buffering-controls .centered button, .reddit-video-controller-root.interstitial-controls .centered button { padding: 0px; background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%; margin: auto; border-radius: 50%; border-width: 0px ! important; outline: medium none; }
+.reddit-video-controller-root.ended-controls .centered button svg, .reddit-video-controller-root.pinned-controls .centered button svg, .reddit-video-controller-root.buffering-controls .centered button svg, .reddit-video-controller-root.interstitial-controls .centered button svg, .reddit-video-controller-root.ended-controls .centered button img, .reddit-video-controller-root.pinned-controls .centered button img, .reddit-video-controller-root.buffering-controls .centered button img, .reddit-video-controller-root.interstitial-controls .centered button img { padding: 0px; margin: auto; }
+.reddit-video-controller-root.ended-controls .centered span.replay-video, .reddit-video-controller-root.pinned-controls .centered span.replay-video, .reddit-video-controller-root.buffering-controls .centered span.replay-video, .reddit-video-controller-root.interstitial-controls .centered span.replay-video { margin-top: 9px; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-weight: bold; line-height: 16px; text-align: center; }
+@keyframes container-rotate {
+100% { transform: rotate(360deg); }
+}
+@keyframes container-rotate {
+100% { transform: rotate(360deg); }
+}
+@keyframes fill-unfill-rotate {
+12.5% { transform: rotate(135deg); }
+25% { transform: rotate(270deg); }
+37.5% { transform: rotate(405deg); }
+50% { transform: rotate(540deg); }
+62.5% { transform: rotate(675deg); }
+75% { transform: rotate(810deg); }
+87.5% { transform: rotate(945deg); }
+100% { transform: rotate(1080deg); }
+}
+@keyframes fill-unfill-rotate {
+12.5% { transform: rotate(135deg); }
+25% { transform: rotate(270deg); }
+37.5% { transform: rotate(405deg); }
+50% { transform: rotate(540deg); }
+62.5% { transform: rotate(675deg); }
+75% { transform: rotate(810deg); }
+87.5% { transform: rotate(945deg); }
+100% { transform: rotate(1080deg); }
+}
+@keyframes left-spin {
+0% { transform: rotate(130deg); }
+50% { transform: rotate(-5deg); }
+100% { transform: rotate(130deg); }
+}
+@keyframes left-spin {
+0% { transform: rotate(130deg); }
+50% { transform: rotate(-5deg); }
+100% { transform: rotate(130deg); }
+}
+@keyframes right-spin {
+0% { transform: rotate(-130deg); }
+50% { transform: rotate(5deg); }
+100% { transform: rotate(-130deg); }
+}
+@keyframes right-spin {
+0% { transform: rotate(-130deg); }
+50% { transform: rotate(5deg); }
+100% { transform: rotate(-130deg); }
+}
